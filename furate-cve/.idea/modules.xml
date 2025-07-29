@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/furate-cve.iml" filepath="$PROJECT_DIR$/.idea/furate-cve.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ainit.iml" filepath="$PROJECT_DIR$/.idea/ainit.iml" />
     </modules>
   </component>
 </project>

@@ -32,7 +32,6 @@ class MsfClient:
         result = defaultdict(list)
         for i in search_result:
             result[i["type"]].append(i)
-
         return result
 
     def search_all(self, modules_name: str = None) -> Union[list, dict]:

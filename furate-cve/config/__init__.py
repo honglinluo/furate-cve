@@ -1,7 +1,2 @@
-from collections import ChainMap
-from .config import *
+from config.config_read import ConfigReader
 
-config = ChainMap({"header": header}, client_info)
-__all__ = [
-    "config"
-]
