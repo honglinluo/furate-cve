@@ -1,0 +1,4279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cnnvd cnnvd_xml_version="*.*" pub_date="****-**-**" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3445</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于bpf_arch_text_poke函数中new_addr等于NULL时的处理不当。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38489</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Phoenix SecureCore 输入验证错误漏洞</name>
+    <vuln-id>CNNVD-202312-620</vuln-id>
+    <published>2023-12-07</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>输入验证错误</vuln-type>
+    <vuln-descript>Phoenix SecureCore是德国菲尼克斯电气（Phoenix）公司的一个计算机基础输入/输出系统。 Phoenix SecureCore Technology 4存在输入验证错误漏洞，该漏洞源于输入验证不当，可能会导致拒绝服务攻击或任意代码执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2023-5058</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3154</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于处理恶意制作的文件可能会导致堆损坏。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44218</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Aruba Networks ArubaOS 安全漏洞</name>
+    <vuln-id>CNNVD-202405-196</vuln-id>
+    <published>2024-05-01</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Aruba Networks ArubaOS是美国安移通（Aruba Networks）公司的一套面向Aruba Mobility-Defined Networks（包括移动控制器和移动接入交换机）的操作系统。 Aruba Networks ArubaOS存在安全漏洞，该漏洞源于存在未经身份验证的拒绝服务(DoS)漏洞，成功利用此漏洞会导致受影响服务的正常运行中断。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-33517</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Comodo Dragon 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3397</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Comodo Dragon是中国科摩多（Comodo）公司的一款网络浏览器。 Comodo Dragon 134.0.6998.179及之前版本存在安全漏洞，该漏洞源于组件IP DNS Leakage Detector导致敏感信息明文传输。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8205</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>ChanCMS 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3496</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>ChanCMS是中国yanyutao0402个人开发者的一个内容管理系统。 ChanCMS 3.1.2及之前版本存在代码问题漏洞，该漏洞源于文件app/modules/cms/controller/collect.js中函数getArticle对参数targetUrl的操作导致反序列化。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8266</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3448</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于重复调用page_pool_put_full_page，可能导致双重释放。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38490</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3156</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于隐私浏览可能会泄露部分浏览历史记录。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44229</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin Kallyas 路径遍历漏洞</name>
+    <vuln-id>CNNVD-202507-3383</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>路径遍历</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin Kallyas 4.21.0及之前版本存在路径遍历漏洞，该漏洞源于文件路径验证不足，可能导致任意文件夹删除。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-6989</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple多款产品 安全漏洞</name>
+    <vuln-id>CNNVD-202505-1639</vuln-id>
+    <published>2025-05-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS等都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple watchOS是一套智能手表操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple多款产品存在安全漏洞，该漏洞源于检查不足，可能导致恶意网站跨域泄露数据。以下产品受到影响：watchOS、tvOS、iOS、iPadOS、macOS、visionOS和Safari。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-31205</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3537</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在安全漏洞，该漏洞源于Windows插件解包存在路径遍历。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54531</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3597</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS存在安全漏洞，该漏洞源于应用程序可能能够在未经用户同意的情况下访问联系人。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-40858</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-2531</vuln-id>
+    <published>2024-12-20</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15.1版本存在安全漏洞，该漏洞源于用户可能能够查看敏感用户信息。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44293</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Canara ai1 Mobile Banking App 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3398</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Canara ai1 Mobile Banking App是印度Canara公司的一个手机银行应用。 Canara ai1 Mobile Banking App 3.6.23版本存在安全漏洞，该漏洞源于文件AndroidManifest.xml导致安卓组件导出不当。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8207</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3170</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于恢复恶意制作的备份文件可能会导致受保护的系统文件被修改。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44258</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>D-Link DI-8400 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3356</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>D-Link DI-8400是中国友讯（D-Link）公司的一款无线路由器。 D-Link DI-8400 16.07.26A1版本存在安全漏洞，该漏洞源于文件usb_paswd.asp中参数share_enable导致空指针取消引用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8175</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>sequoia-openpgp 缓冲区错误漏洞</name>
+    <vuln-id>CNNVD-202507-3459</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>缓冲区错误</vuln-type>
+    <vuln-descript>sequoia-openpgp是sequoia-openpgp个人开发者的一个Rust库。 sequoia-openpgp crate 1.16.0之前版本存在缓冲区错误漏洞，该漏洞源于越界数组访问可能导致崩溃。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2023-53160</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>node-saml 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3506</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>node-saml是一个 SAML 库，不依赖于在 Node.js 中运行的任何框架。 node-saml 5.0.1版本存在安全漏洞，该漏洞源于未正确验证SAML断言，可能导致身份验证绕过。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54419</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>DbGate 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3359</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>DbGate是DbGate开源的一个数据库管理器。 DbGate 6.4.3-premium-beta.5及之前版本存在安全漏洞，该漏洞源于文件参数验证不足，可能导致目录遍历。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50184</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>dag-factory 操作系统命令注入漏洞</name>
+    <vuln-id>CNNVD-202507-3368</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>授权问题</vuln-type>
+    <vuln-descript>dag-factory是Astronomer开源的一个通过构建Apache Airflow DAG的软件。 dag-factory 0.23.0a8及之前版本存在操作系统命令注入漏洞，该漏洞源于cicd.yml工作流配置不当，可能导致任意代码执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54415</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3538</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在安全漏洞，该漏洞源于访问控制不当，可能导致构建设置泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54532</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Online Ordering System 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3485</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>Code-Projects Online Ordering System是Code-Projects开源的一个在线订购系统。 Code-Projects Online Ordering System 1.0版本存在代码问题漏洞，该漏洞源于文件/admin/product.php中参数image的错误操作导致任意文件上传。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8256</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>GeoDirectory – WP Business Directory Plugin and Classified Listings Directory SQL注入漏洞</name>
+    <vuln-id>CNNVD-202507-3357</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>SQL注入</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 GeoDirectory – WP Business Directory Plugin and Classified Listings Directory 2.8.97及之前版本存在SQL注入漏洞，该漏洞源于dist参数存在SQL注入，可能导致信息泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-13507</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-2524</vuln-id>
+    <published>2024-12-20</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15.1版本存在安全漏洞，该漏洞源于应用程序可能能够访问用户敏感数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44211</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3183</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于沙盒应用可能能够访问系统日志中的敏感用户数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44278</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3442</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于未验证n_insns大小，可能导致内存分配失败。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38481</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>DbGate 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3360</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>DbGate是DbGate开源的一个数据库管理器。 DbGate 6.6.0及之前版本存在安全漏洞，该漏洞源于文件路径验证不足，可能导致未授权文件访问。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50185</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3203</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够访问用户敏感数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44216</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Local Services Search Engine Management System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3375</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>PHPGurukul Local Services Search Engine Management System是PHPGurukul公司的一个本地服务搜索引擎管理系统。 PHPGurukul Local Services Search Engine Management System 2.1版本存在注入漏洞，该漏洞源于文件/admin/changeimage.php中参数editid导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8179</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3179</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于对锁定设备具有物理访问权限的攻击者可能能够查看敏感用户信息。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44274</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>libcurl 安全漏洞</name>
+    <vuln-id>CNNVD-202505-3814</vuln-id>
+    <published>2025-05-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>libcurl是cURL开源的一个免费且易于使用的客户端 URL 传输库。 libcurl存在安全漏洞，该漏洞源于QUIC连接时跳过证书验证，可能导致中间人攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-4947</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>BeyondTrust Privilege Management for Windows 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3529</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>BeyondTrust Privilege Management for Windows是美国BeyondTrust公司的一款限制用户权限的软件。 BeyondTrust Privilege Management for Windows 25.4.270.0之前版本存在安全漏洞，该漏洞源于wmic.exe可能导致反篡改保护绕过。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-6250</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3543</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在安全漏洞，该漏洞源于密码重置和邮件验证令牌使用弱哈希算法。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54535</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3209</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于具有 root 权限的恶意应用程序可能能够修改系统文件的内容。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44260</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 跨站请求伪造漏洞</name>
+    <vuln-id>CNNVD-202507-3534</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>跨站请求伪造</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在跨站请求伪造漏洞，该漏洞源于GitHub App连接流程存在CSRF。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54528</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>glib 代码注入漏洞</name>
+    <vuln-id>CNNVD-202507-3510</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>代码注入</vuln-type>
+    <vuln-descript>glib是GNOME项目的一个通用的、可移植的实用程序库。提供了许多有用的数据类型、宏、类型转换、字符串实用程序、文件实用程序、主循环抽象等。 glib存在代码注入漏洞，该漏洞源于长命令行可能导致拒绝服务。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-4056</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Aruba Networks ArubaOS 安全漏洞</name>
+    <vuln-id>CNNVD-202403-446</vuln-id>
+    <published>2024-03-05</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Aruba Networks ArubaOS是美国安移通（Aruba Networks）公司的一套面向Aruba Mobility-Defined Networks（包括移动控制器和移动接入交换机）的操作系统。 Aruba Networks ArubaOS 存在安全漏洞，该漏洞源于 ArubaOS 的某些配置可能导致 IKE_AUTH 协商过程中部分敏感信息泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-25616</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3148</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于恶意应用程序可能会导致拒绝服务。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44197</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Aruba Networks ArubaOS 安全漏洞</name>
+    <vuln-id>CNNVD-202405-202</vuln-id>
+    <published>2024-05-01</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Aruba Networks ArubaOS是美国安移通（Aruba Networks）公司的一套面向Aruba Mobility-Defined Networks（包括移动控制器和移动接入交换机）的操作系统。 Aruba Networks ArubaOS存在安全漏洞，该漏洞源于存在未经身份验证的拒绝服务(DoS)漏洞，成功利用此漏洞可以中断控制器的正常运行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-33516</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>IBM Informix Dynamic Server 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3525</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>IBM Informix Dynamic Server（IDS）是美国国际商业机器（IBM）公司的一款可扩展的对象关系数据库服务器，它为集群数据中心提供持续数据可用性和灾难恢复等功能。 IBM Informix Dynamic Server 12.10版本和14.10版本存在安全漏洞，该漏洞源于账户锁定设置不足，可能导致暴力破解凭据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-49342</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3455</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于未初始化指令数据，可能导致无效访问。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38478</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Lobby Universe Lobby App 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3486</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Lobby Universe Lobby App是美国Lobby Universe公司的一个随机视频通话应用。 Lobby Universe Lobby App 2.8.0及之前版本存在安全漏洞，该漏洞源于AndroidManifest.xml组件导出不当。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8257</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Copyparty 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3558</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>Copyparty是ed个人开发者的一个便携式文件服务器。 Copyparty 1.18.4及之前版本存在跨站脚本漏洞，该漏洞源于音乐文件多媒体标签清理不当，可能导致执行任意JavaScript代码。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54423</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3181</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于应用程序可能会导致系统意外终止或损坏内核内存。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44277</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3206</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于处理恶意制作的文件可能会导致应用程序意外终止。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44237</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-1481</vuln-id>
+    <published>2024-12-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1之前版本和iPadOS 18.1之前版本存在安全漏洞。攻击者利用该漏洞可以导致 DCP 固件中系统意外终止或任意代码执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44299</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3164</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44253</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>CampCodes Courier Management System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3388</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>CampCodes Courier Management System是菲律宾CampCodes公司的一个快递管理系统。 CampCodes Courier Management System 1.0版本存在注入漏洞，该漏洞源于文件/edit_branch.php中参数ID导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8186</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3147</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44196</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>编号撤回</name>
+    <vuln-id>CNNVD-202507-448</vuln-id>
+    <published>2025-07-04</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>授权问题</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 该CVE编号已撤回。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38178</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Beamsec PhishPro 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3508</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Beamsec PhishPro是英国Beamsec公司的一款钓鱼攻击模拟与安全意识培训平台。 Beamsec PhishPro 7.5.4.2之前版本存在安全漏洞，该漏洞源于特权API使用不当可能导致权限滥用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-5997</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Xlight FTP 安全漏洞</name>
+    <vuln-id>CNNVD-202401-1902</vuln-id>
+    <published>2024-01-19</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Xlight FTP是Xlight FTP公司的一款高性能且易于使用的 FTP 服务器软件。使文件传输安全且易于使用。 Xlight FTP 1.1版本存在安全漏洞，该漏洞源于组件Login的参数user会导致拒绝服务。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-0737</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3542</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在安全漏洞，该漏洞源于用户凭据以明文形式存储在内存快照中。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54537</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-2529</vuln-id>
+    <published>2024-12-20</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15.1版本存在安全漏洞，该漏洞源于应用程序可能能够访问敏感用户数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44292</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Firecoders Joomla component CommentBox 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3551</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>Firecoders Joomla component CommentBox是希腊Firecoders公司的一个Joomla评论组件。 Firecoders Joomla component CommentBox 1.0.0至1.1.0版本存在跨站脚本漏洞，该漏洞源于容易受到存储型跨站脚本攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54298</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin Advanced iFrame 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3377</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin Advanced iFrame 2025.5及之前版本存在跨站脚本漏洞，该漏洞源于输入清理和输出转义不足，可能导致存储型跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-6987</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Phoenix SecureCore 安全漏洞</name>
+    <vuln-id>CNNVD-202405-2138</vuln-id>
+    <published>2024-05-14</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Phoenix SecureCore是德国菲尼克斯电气（Phoenix）公司的一个计算机基础输入/输出系统。 Phoenix SecureCore存在安全漏洞，该漏洞源于缓冲区溢出。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-0762</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>cosmwasm-std crate 输入验证错误漏洞</name>
+    <vuln-id>CNNVD-202507-3428</vuln-id>
+    <published>2025-07-27</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>输入验证错误</vuln-type>
+    <vuln-descript>cosmwasm-std crate是CosmWasm开源的一个在 Wasm 中为 Cosmos SDK 构建智能合约的框架。 cosmwasm-std crate 2.0.2之前版本存在输入验证错误漏洞，该漏洞源于整数溢出可能导致计算错误。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-58263</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3440</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于TLS读取套接字时未刷新队列，可能导致使用已释放的skb。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38471</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3177</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于沙盒进程可能能够规避沙盒限制。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44270</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Invision Community 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3528</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Invision Community是美国Invision公司的一个用于设计、开发移动应用UI的软件。 Invision Community 4.7.20及之前版本存在安全漏洞，该漏洞源于输入清理不当，容易受到SQL注入攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-48932</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3482</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/delete_s6.php中参数ID的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8253</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3161</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于恶意应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44247</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>TOTOLINK N600R和TOTOLINK X2000R 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3381</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>TOTOLINK N600R和TOTOLINK X2000R都是中国吉翁电子（TOTOLINK）公司的一款无线路由器。 TOTOLINK N600R和TOTOLINK X2000R 1.0.0.1版本存在安全漏洞，该漏洞源于文件vsftpd.conf导致权限违规。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8181</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3134</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15版本存在安全漏洞，该漏洞源于沙盒应用可能能够访问敏感用户数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-40855</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3466</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于smc_sock类型混淆，可能导致空指针取消引用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38475</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>MedDream PACS Premium 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3514</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>MedDream PACS Premium是MedDream公司的一款企业级图像存储与管理服务器套件。 MedDream PACS Premium 7.3.3.840版本存在安全漏洞，该漏洞源于CServerSettings::SetRegistryValues功能默认权限不当，可能导致凭据解密。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-26469</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3187</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于应用程序可能会导致系统意外终止或损坏内核内存。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44285</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3452</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于绕过hid_hw_raw_request验证，可能导致无效参数。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38494</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>D-Link DIR-513 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3386</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>D-Link DIR-513是中国友讯（D-Link）公司的一款无线路由器产品。 D-Link DIR-513 1.10及之前版本存在安全漏洞，该漏洞源于文件/goform/formSetWanL2TPtriggers中函数formSetWanL2TPcallback导致栈缓冲区溢出。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8184</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Voting System 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3358</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>Code-Projects Voting System是Code-Projects开源的一个选举系统。 Code-Projects Voting System 1.0版本存在代码问题漏洞，该漏洞源于文件/admin/candidates_add.php中参数photo导致无限制上传。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8174</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>MedDream PACS Premium 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3513</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>MedDream PACS Premium是MedDream公司的一款企业级图像存储与管理服务器套件。 MedDream PACS Premium 7.3.5.860版本存在代码问题漏洞，该漏洞源于文件cecho.php功能存在服务端请求伪造。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-24485</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>FreeScout 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3361</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>FreeScout是FreeScout公司的一个使用 PHP（Laravel 框架）构建的超轻量级且功能强大的免费开源帮助台和共享收件箱。 FreeScout 1.8.185及之前版本存在代码问题漏洞，该漏洞源于不安全反序列化，可能导致远程代码执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54366</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3450</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于rpl_do_srh_inline函数中存在释放后重用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38476</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3139</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15版本存在安全漏洞，该漏洞源于具有物理访问权限的攻击者可能能够从锁定屏幕共享项目。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44137</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Car Washing Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3532</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Car Washing Management System是PHPGurukul公司的一个洗车管理系统。 PHPGurukul Car Washing Management System v1.0版本存在安全漏洞，该漏洞源于组件/doctor/change-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50494</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>CampCodes Courier Management System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3389</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>CampCodes Courier Management System是菲律宾CampCodes公司的一个快递管理系统。 Campcodes Courier Management System 1.0版本存在注入漏洞，该漏洞源于文件/edit_parcel.php中参数ID导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8187</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3467</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于Xen schedop poll超调用模拟中的清理逻辑错误。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38469</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3152</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于具有特权网络地位的攻击者可能能够泄露敏感用户信息。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44213</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>mall 代码注入漏洞</name>
+    <vuln-id>CNNVD-202507-3393</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>代码注入</vuln-type>
+    <vuln-descript>mall是macro个人开发者的一套电商系统，包括前台商城系统及后台管理系统。 mall 1.0.3及之前版本存在代码注入漏洞，该漏洞源于文件/swagger-ui/index.html中参数configUrl导致跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8191</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3150</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够读取敏感位置信息。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44222</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>MedDream PACS Premium 访问控制错误漏洞</name>
+    <vuln-id>CNNVD-202507-3515</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>授权问题</vuln-type>
+    <vuln-descript>MedDream PACS Premium是MedDream公司的一款企业级图像存储与管理服务器套件。 MedDream PACS Premium 7.3.3.840版本存在访问控制错误漏洞，该漏洞源于文件login.php功能存在权限提升。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-27724</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3193</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于恶意应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44301</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3182</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于解析文件可能会导致用户信息泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44279</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Bank Locker Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3549</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Bank Locker Management System是PHPGurukul公司的一个银行储物柜管理系统。 PHPGurukul Bank Locker Management System v1版本存在安全漏洞，该漏洞源于组件/banker/change-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50491</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3175</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和 iPadOS 18.1版本存在安全漏洞，该漏洞源于恶意应用程序可能会使用快捷方式访问受限文件。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44269</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3212</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44295</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Polkadot Frontier 加密问题漏洞</name>
+    <vuln-id>CNNVD-202507-3559</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>加密问题</vuln-type>
+    <vuln-descript>Polkadot Frontier是Polkadot EVM开源的一个提供以太坊虚拟机兼容层的应用程序。 Polkadot Frontier 36f70d1之前版本存在加密问题漏洞，该漏洞源于Curve25519Add和Curve25519ScalarMul预编译处理无效Ristretto点不当，可能导致加密结果错误。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54426</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>ed25519-dalek crate 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3470</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>ed25519-dalek crate是dalek cryptography开源的一个Rust库。 ed25519-dalek crate 2之前版本存在安全漏洞，该漏洞源于双公钥签名函数导致私钥提取。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2022-50237</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple多款产品 安全漏洞</name>
+    <vuln-id>CNNVD-202505-1647</vuln-id>
+    <published>2025-05-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple watchOS等都是美国苹果（Apple）公司的产品。Apple watchOS是一套智能手表操作系统。Apple macOS是一套专为Mac计算机所开发的专用操作系统。Apple Watch是一款可穿戴智能手表。 Apple多款产品存在安全漏洞，该漏洞源于检查不足，可能导致处理恶意Web内容时进程意外崩溃。以下产品受到影响：watchOS、tvOS、iOS、iPadOS、macOS、visionOS和Safari。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-31215</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3158</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和 iPadOS 18.1版本存在安全漏洞，该漏洞源于攻击者可能能够从锁定屏幕查看受限内容。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44235</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>fastapi-guard 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3052</vuln-id>
+    <published>2025-07-23</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>fastapi-guard是Renzo F个人开发者的一个FastAPI的安全库，提供中间件来控制IP、记录请求和检测渗透尝试。 fastapi-guard 3.0.1版本存在安全漏洞，该漏洞源于正则表达式长度限制不当，可能导致绕过防护机制。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54365</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Yeelight App 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3399</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Yeelight App是中国Yeelight公司的一款用于控制智能照明产品的应用程序。 Yeelight App 3.5.4及之前版本存在安全漏洞，该漏洞源于文件AndroidManifest.xml导致安卓组件导出不当。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8210</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin Wonder Slider Lite 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3378</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin Wonder Slider Lite 14.4及之前版本存在跨站脚本漏洞，该漏洞源于输入清理和输出转义不足，可能导致存储型跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-7501</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3172</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于具有物理访问权限的攻击者可以将游戏控制器事件输入到锁定设备上运行的应用程序。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44265</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3451</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于未检查状态端点，可能导致无效访问。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38474</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Vaelsys V4 命令注入漏洞</name>
+    <vuln-id>CNNVD-202507-3489</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>命令注入</vuln-type>
+    <vuln-descript>Vaelsys V4是西班牙Vaelsys公司的一款人工智能视频分析平台。 Vaelsys V4 4.1.0版本存在命令注入漏洞，该漏洞源于文件/grid/vgrid_server.php中参数xajaxargs的错误操作导致os命令注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8259</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JHipster 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3156</vuln-id>
+    <published>2025-07-25</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JHipster是一款开源的应用程序生成器，它主要使用Angular或React和Spring Framework开发Web应用程序和微服务。 JHipster 8.9.0之前版本存在安全漏洞，该漏洞源于authorities参数未经验证，可能导致权限提升。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-43712</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>branch-names 命令注入漏洞</name>
+    <vuln-id>CNNVD-202507-3370</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>命令注入</vuln-type>
+    <vuln-descript>branch-names是tj-actions开源的一个用于检索分支或标签名称的工具。 branch-names 8.2.1及之前版本存在命令注入漏洞，该漏洞源于输入清理和输出转义不足，可能导致任意命令执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54416</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Tenda CH22 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3380</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Tenda CH22是中国腾达（Tenda）公司的一款网络设备。 Tenda CH22 1.0.0.1版本存在安全漏洞，该漏洞源于文件/goform/deleteUserName中参数old_account导致缓冲区溢出。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8180</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3176</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于恶意应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44275</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>rust-openssl 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3460</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>rust-openssl是Rust的一个用于与 OpenSSL 库进行交互的库。 rust-openssl 0.10.55之前版本存在安全漏洞，该漏洞源于X509VerifyParamRef::set_host存在越界读取。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2023-53159</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3458</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于htb_lookup_leaf遇到空rbtree时未返回NULL。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38468</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Optimizely Episerver Content Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3493</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Optimizely Episerver Content Management System是美国Optimizely公司的一个企业级内容管理系统。 Optimizely Episerver Content Management System存在安全漏洞，该漏洞源于存储型跨站脚本使经过身份验证的攻击者能执行恶意JavaScript代码。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-27801</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3502</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/update_fst.php中参数credits的操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8272</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3160</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于应用程序可能会泄露敏感的内核状态。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44239</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Comodo Dragon 安全特征问题漏洞</name>
+    <vuln-id>CNNVD-202507-3395</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>授权问题</vuln-type>
+    <vuln-descript>Comodo Dragon是中国科摩多（Comodo）公司的一款网络浏览器。 Comodo Dragon 134.0.6998.179及之前版本存在安全特征问题漏洞，该漏洞源于组件HSTS Handler安全检查不足。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8204</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3207</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用可能能够突破沙盒限制。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44256</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>HAX 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3362</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>HAX是HAX The Web开源的一个HAX+CMS使用PHP后端管理的微型网站。 HAX存在安全漏洞，该漏洞源于API端点未执行授权检查，可能导致未经授权的资源交互。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54378</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-1474</vuln-id>
+    <published>2024-12-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1之前版本和iPadOS 18.1之前版本存在安全漏洞。攻击者利用该漏洞可以导致 DCP 固件中系统意外终止或任意代码执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44242</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin MinimogWP 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3376</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin MinimogWP 3.9.0及之前版本存在安全漏洞，该漏洞源于购物车数量检查不足，可能导致价格操纵。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8198</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PowerStick Wave Dual-Band Wifi Extender 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3555</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PowerStick Wave Dual-Band Wifi Extender是美国PowerStick公司的一款便携式WiFi扩展器。 PowerStick Wave Dual-Band Wifi Extender V1.0版本存在安全漏洞，该漏洞源于文件/cgi-bin/cgi_vista.cgi中用户输入清理不足，可能导致远程代码执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-29534</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>BeyondTrust Privilege Management for Windows 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3527</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>BeyondTrust Privilege Management for Windows是美国BeyondTrust公司的一款限制用户权限的软件。 BeyondTrust Privilege Management for Windows 25.4.270.0之前版本存在安全漏洞，该漏洞源于用户配置文件操作可能导致权限提升。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-2297</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>code-projects Online Ordering System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3477</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Online Ordering System是Code-Projects开源的一个在线订购系统。 code-projects Online Ordering System 1.0版本存在注入漏洞，该漏洞源于文件/signup.php中参数firstname的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8248</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3446</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于VLAN 0引用计数不平衡，可能导致内存泄漏。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38470</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Yarn 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3473</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Yarn是一款开源的软件包安装、管理工具。 Yarn 1.22.22及之前版本存在安全漏洞，该漏洞源于函数explodeHostedGitFragment会导致正则表达式的复杂性降低。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8262</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3169</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于攻击者可能会滥用信任关系来下载恶意内容。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44259</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Tenda AC10 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3374</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Tenda AC10是中国腾达（Tenda）公司的一款无线路由器。 Tenda AC10 16.03.10.13版本存在安全漏洞，该漏洞源于文件/goform/RequestsProcessLaid中参数device1D导致堆缓冲区溢出。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8178</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul e-Diary Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3550</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul e-Diary Management System是PHPGurukul公司的一个电子日记管理系统。 PHPGurukul e-Diary Management System v1版本存在安全漏洞，该漏洞源于组件/edms/change-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50492</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3184</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44280</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>mezzanine 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3037</vuln-id>
+    <published>2025-07-23</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>mezzanine是stephenmcd个人开发者的一个Django的CMS框架。 mezzanine v6.1.0版本存在安全漏洞，该漏洞源于/blog/blogpost/add组件输入验证不足，可能导致跨站脚本攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50481</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>299Ko 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3495</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>299Ko是299Ko开源的一个简单、快速、轻量级的内容管理系统。 299Ko 2.0.0版本存在代码问题漏洞，该漏洞源于文件/admin/filemanager/view中文件管理组件存在无限制上传。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8265</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>prettier 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3474</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>prettier是Prettier开源的一个代码格式化工具。 prettier 3.6.2及之前版本存在安全漏洞，该漏洞源于对参数节点的操作会导致正则表达式的复杂性降低。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8263</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Nuxt MDC 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-2444</vuln-id>
+    <published>2025-07-18</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>Nuxt MDC是Nuxt开源的一个应用程序，增强了常规 Markdown 的能力。 Nuxt MDC 0.17.2之前版本存在跨站脚本漏洞，该漏洞源于Markdown处理不当，可能导致存储型跨站脚本攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54075</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Optimizely Episerver Content Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3494</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Optimizely Episerver Content Management System是美国Optimizely公司的一个企业级内容管理系统。 Optimizely Episerver Content Management System存在安全漏洞，该漏洞源于存储型跨站脚本使经过身份验证的攻击者能执行恶意JavaScript代码。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-27802</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3480</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 code-projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/delete_s4.php中参数ID的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8251</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3469</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于timerlat_dump_stack函数中缓冲区溢出。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38493</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3449</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于未验证IRQ号范围，可能导致越界位移。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38482</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3146</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于应用程序可能能够访问敏感用户数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44194</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3479</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/update_s4.php中参数credits的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8250</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Microsoft Excel 代码注入漏洞</name>
+    <vuln-id>CNNVD-202110-858</vuln-id>
+    <published>2021-10-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>代码注入</vuln-type>
+    <vuln-descript>Microsoft Excel是美国微软（Microsoft）公司的一款Office套件中的电子表格处理软件。 Microsoft Excel存在代码注入漏洞。该漏洞源于外部输入数据构造代码段的过程中，网络系统或产品未正确过滤其中的特殊元素。攻击者可利用该漏洞生成非法的代码段，修改网络系统或组件的预期的执行控制流。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2021-40474</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3536</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在安全漏洞，该漏洞源于目录权限不当，可能导致权限提升。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54530</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3144</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够绕过隐私偏好设置。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44159</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Campcodes Courier Management System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3483</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>CampCodes Courier Management System是菲律宾CampCodes公司的一个快递管理系统。 Campcodes Courier Management System 1.0版本存在注入漏洞，该漏洞源于文件/view_parcel.php中参数ID的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8254</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3128</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于远程攻击者可能能够突破 Web 内容沙盒。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-40867</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-2530</vuln-id>
+    <published>2024-12-20</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15.1版本存在安全漏洞，该漏洞源于应用可能能够访问有关用户联系人的信息。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44298</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3141</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15版本存在安全漏洞，该漏洞源于处理恶意制作的文件可能会导致应用程序意外终止。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44144</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3461</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于未验证IRQ号范围，可能导致越界位移。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38483</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3143</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15版本存在安全漏洞，该漏洞源于应用程序可能能够访问敏感用户数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44175</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Online Library Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3547</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Online Library Management System是PHPGurukul公司的一个在线图书管理系统。 PHPGurukul Online Library Management System v3.0版本存在安全漏洞，该漏洞源于组件/library/change-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50488</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3453</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于fifo_flush函数中存在释放后重用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38485</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3472</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于缓存写入完成和ALL_QUEUED设置之间的竞争条件。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38492</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3468</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于未预留报告ID空间，可能导致缓冲区不足。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38495</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202501-2263</vuln-id>
+    <published>2025-01-15</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于应用程序可能会导致系统意外终止。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-40854</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-2527</vuln-id>
+    <published>2024-12-20</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15.1版本存在安全漏洞，该漏洞源于具有 Mac 物理访问权限的用户可能能够在软件更新期间绕过登录窗口。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44231</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Online Course Registration 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3556</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Online Course Registration是PHPGurukul公司的一个在线课程注册系统。 PHPGurukul Online Course Registration v3.1版本存在安全漏洞，该漏洞源于组件/crm/change-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50485</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Roothub 代码注入漏洞</name>
+    <vuln-id>CNNVD-202507-3400</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>代码注入</vuln-type>
+    <vuln-descript>Roothub是一个使用 SSM 和 MySQL 开发的论坛系统。 Roothub 2.6及之前版本存在代码注入漏洞，该漏洞源于文件src/main/java/cn/roothub/web/admin/SystemConfigAdminController.java中函数Edit导致跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8211</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHOENIX CONTACT TdkLib64.sys 安全漏洞</name>
+    <vuln-id>CNNVD-202308-2232</vuln-id>
+    <published>2023-08-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHOENIX CONTACT TdkLib64.sys是德国菲尼克斯电气（PHOENIX CONTACT）公司的一个核心应用。 PHOENIX CONTACT TdkLib64.sys 存在安全漏洞，该漏洞源于TdkLib64.sys 容易受到 IOCTL 访问控制不足的影响，通过发送特定的 IOCTL 请求，没有产品管理员权限的攻击者可以对任何硬件端口或物理地址执行 I/O，从而导致擦除或更改固件。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2023-35841</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3189</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于恶意应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44287</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3138</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15版本存在安全漏洞，该漏洞源于处理恶意制作的文件可能会导致堆损坏。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44126</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Aruba Networks ArubaOS 安全漏洞</name>
+    <vuln-id>CNNVD-202405-198</vuln-id>
+    <published>2024-05-01</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Aruba Networks ArubaOS是美国安移通（Aruba Networks）公司的一套面向Aruba Mobility-Defined Networks（包括移动控制器和移动接入交换机）的操作系统。 Aruba Networks ArubaOS存在安全漏洞，该漏洞源于通过 PAPI 协议访问的 AP 管理服务中存在未经身份验证的拒绝服务漏洞，攻击者利用该漏洞可以中断受影响服务。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-33514</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Microsoft Windows 11 for ARM 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3545</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Microsoft Windows 11 for ARM是美国微软（Microsoft）公司的一套用于ARM架构个人电脑使用的操作系统。 Microsoft Windows 11 for ARM存在安全漏洞，该漏洞源于DLL劫持可能导致代码执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-7676</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Phoenix SecureCore 代码问题漏洞</name>
+    <vuln-id>CNNVD-202501-1814</vuln-id>
+    <published>2025-01-14</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>Phoenix SecureCore是德国菲尼克斯电气（Phoenix）公司的一个计算机基础输入/输出系统。 Phoenix SecureCore存在代码问题漏洞，该漏洞源于异常或异常情况检查不当，允许输入数据操纵。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-29980</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3456</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于l2cap_sock_resume_cb函数中存在空指针取消引用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38473</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin WPeMatico RSS Feed Fetcher 跨站请求伪造漏洞</name>
+    <vuln-id>CNNVD-202507-3369</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>跨站请求伪造</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin WPeMatico RSS Feed Fetcher 2.8.7及之前版本存在跨站请求伪造漏洞，该漏洞源于缺少随机数验证，可能导致跨站请求伪造。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8103</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Red Hat Enterprise Linux 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3444</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Red Hat Enterprise Linux是美国红帽（Red Hat）公司的面向企业用户的Linux操作系统。 Red Hat Enterprise Linux存在安全漏洞，该漏洞源于DNS搜索域移除，可能导致连接转发至意外外部服务器。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8283</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>XWiki Platform SQL注入漏洞</name>
+    <vuln-id>CNNVD-202507-3123</vuln-id>
+    <published>2025-07-24</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>SQL注入</vuln-type>
+    <vuln-descript>XWiki Platform是XWiki开源的一套用于创建Web协作应用程序的Wiki平台。 XWiki Platform 9.4-rc-1至16.10.5版本和17.0.0-rc-1至17.2.2版本存在SQL注入漏洞，该漏洞源于getdeleteddocuments.vm中参数sort的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-32429</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>snow crate 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3434</vuln-id>
+    <published>2025-07-27</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>snow crate是Jake McGinty个人开发者的一个噪声协议框架的Rust实现。 snow crate 0.9.5之前版本存在安全漏洞，该漏洞源于使用stateful TransportState时可能导致消息传递拒绝。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-58265</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Doctor Appointment Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3531</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Doctor Appointment Management System是PHPGurukul公司的一个医生预约管理系统。 PHPGurukul Doctor Appointment Management System v1版本存在安全漏洞，该漏洞源于组件/doctor/change-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50493</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains YouTrack 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3533</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JetBrains YouTrack是捷克JetBrains公司的一套基于浏览器的错误跟踪和项目管理软件。该软件具有错误跟踪、创建工作流程和监控项目进度等功能。 JetBrains YouTrack存在安全漏洞，该漏洞源于iframe配置不当，可能导致绕过安全限制。以下版本受到影响：2025.2.86935、2025.2.87167、2025.3.87341和2025.3.87344之前版本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54527</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3157</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于攻击者可能能够从锁定屏幕查看受限内容。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44251</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Cool Mo Magical Number App 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3488</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Cool Mo Magical Number App是Cool Mo公司的一款安卓娱乐应用。 Cool Mo Magical Number App 1.0.3及之前版本存在安全漏洞，该漏洞源于AndroidManifest.xml组件导出不当。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8258</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Adobe ColdFusion 访问控制错误漏洞</name>
+    <vuln-id>CNNVD-202403-1648</vuln-id>
+    <published>2024-03-18</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>授权问题</vuln-type>
+    <vuln-descript>Adobe ColdFusion是美国奥多比（Adobe）公司的一套快速应用程序开发平台。该平台包括集成开发环境和脚本语言。 Adobe ColdFusion 2023.6, 2021.12 版本及之前版本存在访问控制错误漏洞，该漏洞源于存在不正确的访问控制漏洞，可能导致任意文件系统读取。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-20767</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3131</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于具有物理访问权限的攻击者可能能够从锁定屏幕访问联系人照片。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-40851</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3163</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于恢复恶意制作的备份文件可能会导致受保护的系统文件被修改。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44252</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3481</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/delete_s5.php中参数ID的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8252</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Phoenix Technologies GeminiLake 安全漏洞</name>
+    <vuln-id>CNNVD-202405-2135</vuln-id>
+    <published>2024-05-14</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Phoenix Technologies GeminiLake是Phoenix Technologies公司的一款低功耗处理器产品。 Phoenix Technologies GeminiLake存在安全漏洞，该漏洞源于存在缓冲区溢出漏洞。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-1598</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Vox Media Chorus CMS 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3500</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>Vox Media Chorus CMS是美国Vox Media公司的一款内容发布系统。 Vox Media Chorus CMS存在跨站脚本漏洞，该漏洞源于HTML注入，可能导致跨站脚本攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-40730</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>gix-transport crate 操作系统命令注入漏洞</name>
+    <vuln-id>CNNVD-202507-3457</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>授权问题</vuln-type>
+    <vuln-descript>gix-transport crate是GitoxideLabs开源的一个Rust库。 gix-transport crate 0.36.1之前版本存在操作系统命令注入漏洞，该漏洞源于ssh命令注入可能导致远程命令执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2023-53158</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>CodeIgniter 操作系统命令注入漏洞</name>
+    <vuln-id>CNNVD-202507-3524</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>授权问题</vuln-type>
+    <vuln-descript>CodeIgniter是Codeigniter开源的一个轻量级、快速、灵活和安全的 PHP 全栈 Web 框架。 CodeIgniter 4.6.2之前版本存在操作系统命令注入漏洞，该漏洞源于ImageMagick处理用户控制文件名或文本时存在命令注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54418</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3454</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于空字符串写入时的越界读取。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38497</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3504</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/update_s8.php中参数credits的操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8273</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>serde-json-wasm crate 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3430</vuln-id>
+    <published>2025-07-27</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>serde-json-wasm crate是CosmWasm开源的一个Rust库。 serde-json-wasm crate 1.0.1之前版本存在安全漏洞，该漏洞源于深度嵌套JSON数据可能导致栈消耗。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-58264</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Tenda AC18 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3385</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Tenda AC18是中国腾达（Tenda）公司的一款路由器。 Tenda AC18 15.03.05.19版本存在安全漏洞，该漏洞源于文件/etc_ro/smb.conf导致弱密码要求。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8182</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>HP Linux Imaging and Printing Software 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3546</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>HP Linux Imaging and Printing Software是美国惠普（HP）公司的一个支持HP打印机和扫描仪的安装、使用和管理软件包。 HP Linux Imaging and Printing Software存在安全漏洞，该漏洞源于使用弱DSA签名密钥。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-43023</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>bsc Peru Cocktails App 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3512</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>bsc Peru Cocktails App是bsc公司的一个秘鲁鸡尾酒应用。 bsc Peru Cocktails App 1.0.0版本存在安全漏洞，该漏洞源于文件AndroidManifest.xml中组件导出不当。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8275</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-2525</vuln-id>
+    <published>2024-12-20</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15.1版本存在安全漏洞，该漏洞源于应用程序可能能够读取任意文件。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44195</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3211</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于解析恶意制作的文件可能会导致应用程序意外终止。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44283</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>libcurl 安全漏洞</name>
+    <vuln-id>CNNVD-202505-3815</vuln-id>
+    <published>2025-05-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>libcurl是cURL开源的一个免费且易于使用的客户端 URL 传输库。 libcurl存在安全漏洞，该漏洞源于QUIC和HTTP/3连接时未执行证书公钥固定检查，可能导致中间人攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-5025</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-1466</vuln-id>
+    <published>2024-12-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1之前版本和iPadOS 18.1之前版本存在安全漏洞。攻击者利用该漏洞可以读取敏感位置信息。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44200</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3159</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于处理恶意制作的文件可能会导致应用程序意外终止。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44236</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>MedDream PACS Premium 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3519</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>MedDream PACS Premium是MedDream公司的一款企业级图像存储与管理服务器套件。 MedDream PACS Premium 7.3.5.860版本存在跨站脚本漏洞，该漏洞源于文件radiationDoseReport.php功能存在反射型跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-32731</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Johnson Controls iSTAR Ultra 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3523</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Johnson Controls iSTAR Ultra是美国江森自控（Johnson Controls）公司的一款门禁控制器。提供网络弹性和更快的处理速度。 Johnson Controls iSTAR Ultra 6.9.2及之前版本存在安全漏洞，该漏洞源于固件验证不完整，可能导致执行恶意代码。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-53696</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple多款产品 安全漏洞</name>
+    <vuln-id>CNNVD-202505-1679</vuln-id>
+    <published>2025-05-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS等都是美国苹果（Apple）公司的产品。Apple macOS是一套专为Mac计算机所开发的专用操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。Apple visionOS是一款适用于AR眼镜的操作系统。 Apple多款产品存在安全漏洞，该漏洞源于处理恶意Web内容可能导致Safari意外崩溃。以下产品受到影响：watchOS、tvOS、iOS、iPadOS、macOS、visionOS和Safari。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-31257</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>SSRF Check 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3487</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>SSRF Check是Felippe Regazio个人开发者的一个检查字符串是否包含潜在的SSRF攻击。 SSRF Check 1.2.0之前版本存在安全漏洞，该漏洞源于IP地址范围拒绝列表不完整，可能导致服务端请求伪造。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8267</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Sudo 安全漏洞</name>
+    <vuln-id>CNNVD-202506-3715</vuln-id>
+    <published>2025-06-30</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Sudo是一款使用于类Unix系统的，允许用户通过安全的方式使用特殊的权限执行命令的程序。 Sudo 1.9.17p1之前版本存在安全漏洞，该漏洞源于使用用户控制目录中的/etc/nsswitch.conf可能导致获取root访问权限。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-32463</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Johnson Controls iSTAR Ultra 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3520</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Johnson Controls iSTAR Ultra是美国江森自控（Johnson Controls）公司的一款门禁控制器。提供网络弹性和更快的处理速度。 Johnson Controls iSTAR Ultra存在安全漏洞，该漏洞源于Web应用程序存在OS命令注入，可能导致权限提升。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-53695</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3498</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/delete_s2.php中参数ID的操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8270</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Small CRM 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3553</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Small CRM是PHPGurukul公司的一套客户关系管理系统。 PHPGurukul Small CRM v3.0存在安全漏洞，该漏洞源于会话失效不当，可能导致会话劫持。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50484</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>XWiki Platform 输入验证错误漏洞</name>
+    <vuln-id>CNNVD-202507-3364</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>输入验证错误</vuln-type>
+    <vuln-descript>XWiki Platform是XWiki开源的一套用于创建Web协作应用程序的Wiki平台。 XWiki Platform 17.0.0-rc1至17.2.2版本和16.10.5及之前版本存在输入验证错误漏洞，该漏洞源于未清理SQL查询，可能导致SQL注入攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54385</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3140</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15版本存在安全漏洞，该漏洞源于恶意制作的 Web 内容可能违反 iframe 沙盒政策。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44155</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin Taeggie Feed 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3073</vuln-id>
+    <published>2025-07-24</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin Taeggie Feed 0.1.10及之前版本存在跨站脚本漏洞，该漏洞源于用户提供属性直接注入脚本标签，可能导致存储型跨站脚本攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-6382</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3471</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于删除未初始化的连接跟踪条目，可能导致崩溃。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38472</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Campcodes Online Recruitment Management System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3509</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>CampCodes Online Recruitment Management System是菲律宾CampCodes公司的一款招聘管理系统。 Campcodes Online Recruitment Management System 1.0版本存在注入漏洞，该漏洞源于文件/admin/ajax.php中参数ID的操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8274</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-1467</vuln-id>
+    <published>2024-12-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1之前版本和iPadOS 18.1之前版本存在安全漏洞，该漏洞源于一个来源的 Cookie 可能会被发送到另一个来源。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44212</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3171</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于应用程序可能能够访问用户敏感数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44263</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Ncvav Virtual PBX Software SQL注入漏洞</name>
+    <vuln-id>CNNVD-202507-3501</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>SQL注入</vuln-type>
+    <vuln-descript>Ncvav Virtual PBX Software是土耳其Ncvav公司的一款电话交换系统。 Ncvav Virtual PBX Software 2025.07.09之前版本存在SQL注入漏洞，该漏洞源于特殊元素中和不当，容易受到SQL注入攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-6918</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Blood Bank & Donor Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3554</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Blood Bank & Donor Management System是PHPGurukul公司的一个血库与献血者管理系统。 PHPGurukul Blood Bank & Donor Management System v2.4版本存在安全漏洞，该漏洞源于组件/bbdms/change-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50487</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>GitLab Language Server 访问控制错误漏洞</name>
+    <vuln-id>CNNVD-202507-3521</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>授权问题</vuln-type>
+    <vuln-descript>GitLab Language Server是美国GitLab公司的一个语言服务器。 GitLab Language Server 7.6.0至7.30.0之前版本存在访问控制错误漏洞，该漏洞源于输入验证不足，可能导致任意GraphQL查询执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8279</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3443</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于qfq_aggregate竞争条件，可能导致空指针取消引用或释放后重用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38477</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3208</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够访问敏感用户数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44257</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>CampCodes Courier Management System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3391</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>CampCodes Courier Management System是菲律宾CampCodes公司的一个快递管理系统。 CampCodes Courier Management System 1.0版本存在注入漏洞，该漏洞源于文件/edit_user.php中参数ID的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8189</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 跨站请求伪造漏洞</name>
+    <vuln-id>CNNVD-202507-3541</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>跨站请求伪造</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在跨站请求伪造漏洞，该漏洞源于GraphQL端点容易受到跨站请求伪造攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54536</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Comodo Dragon 代码注入漏洞</name>
+    <vuln-id>CNNVD-202507-3396</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>代码注入</vuln-type>
+    <vuln-descript>Comodo Dragon是中国科摩多（Comodo）公司的一款网络浏览器。 Comodo Dragon 134.0.6998.179及之前版本存在代码注入漏洞，该漏洞源于组件IP DNS Leakage Detector导致跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8206</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Phoenix SecureCore 代码问题漏洞</name>
+    <vuln-id>CNNVD-202501-1812</vuln-id>
+    <published>2025-01-14</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>Phoenix SecureCore是德国菲尼克斯电气（Phoenix）公司的一个计算机基础输入/输出系统。 Phoenix SecureCore存在代码问题漏洞，该漏洞源于异常或异常情况检查不当，允许输入数据操纵。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-29979</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3505</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于insn_rw_emulate_bits函数中使用未初始化数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38480</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3540</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在跨站脚本漏洞，该漏洞源于agentpushPreset页面存在反射型跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54534</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3507</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于未验证写入边界，可能导致越界写入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38484</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>IROAD Dashcam FX2 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3518</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>IROAD Dashcam FX2是韩国IROAD公司的一款行车记录仪。 IROAD Dashcam FX2存在安全漏洞，该漏洞源于设备配对绕过，攻击者用默认密码接入后可直接访问管理接口。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-30133</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Maka GPS Marbella KR8s 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3522</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Maka GPS Marbella KR8s是新加坡Maka GPS公司的一款行车记录仪。 Maka GPS Marbella KR8s 2.0.8版本存在安全漏洞，该漏洞源于默认凭证和短密码限制。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-30125</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-1479</vuln-id>
+    <published>2024-12-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1之前版本和Apple iPadOS 18.1之前版本存在安全漏洞。攻击者利用该漏洞可以确定用户的当前位置。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44290</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3497</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/delete_s1.php中参数ID的操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8269</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3173</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于恶意应用程序可能能够修改文件系统的受保护部分。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44267</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>buffered-reader crate 缓冲区错误漏洞</name>
+    <vuln-id>CNNVD-202507-3441</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>缓冲区错误</vuln-type>
+    <vuln-descript>buffered-reader crate是sequoia个人开发者的一个Rust的输入流读取库。 buffered-reader crate 1.1.5之前版本存在缓冲区错误漏洞，该漏洞源于越界数组访问可能导致崩溃。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2023-53161</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-2526</vuln-id>
+    <published>2024-12-20</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15.1版本存在安全漏洞，该漏洞源于具有 Mac 物理访问权限的攻击者可能能够从登录窗口查看受保护的内容。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44223</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>1000 Projects ABC Courier Management System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3387</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>1000 Projects ABC Courier Management System是1000 Projects开源的一个快递管理系统。 1000 Projects ABC Courier Management System 1.0版本存在注入漏洞，该漏洞源于文件/getbyid.php中参数ID导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8185</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-2520</vuln-id>
+    <published>2024-12-20</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于远程攻击者可能会造成拒绝服务。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-54538</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3188</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于处理恶意制作的消息可能会导致拒绝服务。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44297</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3166</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和 iPadOS 18.1版本存在安全漏洞，该漏洞源于应用程序可能能够访问敏感用户数据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44254</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Heimdall 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3402</vuln-id>
+    <published>2025-07-27</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>Heimdall是LinuxServer.io开源的一个应用程序面板和启动器。 Heimdall 2.7.3之前版本存在跨站脚本漏洞，该漏洞源于q参数未清理，可能导致跨站脚本攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54597</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Vaelsys V4 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3491</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Vaelsys V4是西班牙Vaelsys公司的一款人工智能视频分析平台。 Vaelsys V4 4.1.0版本存在安全漏洞，该漏洞源于文件/grid/vgrid_server.php中用户创建处理程序授权不当。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8261</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3463</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于回退操作和决策不同步，可能导致竞争条件。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38491</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Car Rental Project 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3557</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Car Rental Project是PHPGurukul公司的一个汽车租赁项目。 PHPGurukul Car Rental Project v3.0版本存在安全漏洞，该漏洞源于组件/carrental/update-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50486</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3204</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于处理恶意制作的字体可能会导致进程内存泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44240</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Student Result Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3548</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Student Result Management System是PHPGurukul公司的一个学生成绩管理系统。 PHPGurukul Student Result Management System v2.0版本存在安全漏洞，该漏洞源于组件/srms/change-password.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50489</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3185</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于解析文件可能会导致用户信息泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44281</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3499</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 code-projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/delete_s3.php中参数ID的操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8271</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Rosenpass 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3475</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Rosenpass是Rosenpass开源的一个安全VPN软件。 Rosenpass 0.2.1之前版本存在安全漏洞，该漏洞源于单字节UDP数据包可能导致拒绝服务。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2023-53157</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Projectworlds Online Admission System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3476</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Projectworlds Online Admission System是印度Projectworlds公司的一个在线录取系统。 Projectworlds Online Admission System 1.0版本存在注入漏洞，该漏洞源于文件/admin.php中参数markof的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8247</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin WoodMart 输入验证错误漏洞</name>
+    <vuln-id>CNNVD-202507-3379</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>输入验证错误</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin WoodMart 8.2.6及之前版本存在输入验证错误漏洞，该漏洞源于输入验证不足，可能导致绕过支付要求。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8097</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3465</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于禁用未启用的通道，可能导致空指针取消引用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38487</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3478</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在注入漏洞，该漏洞源于文件/admin/update_s3.php中参数credits的错误操作导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8249</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Aruba Networks ArubaOS 安全漏洞</name>
+    <vuln-id>CNNVD-202403-454</vuln-id>
+    <published>2024-03-05</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Aruba Networks ArubaOS是美国安移通（Aruba Networks）公司的一套面向Aruba Mobility-Defined Networks（包括移动控制器和移动接入交换机）的操作系统。 Aruba Networks ArubaOS 存在安全漏洞，该漏洞源于ArubaOS使用的CLI中存在任意文件删除漏洞。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-25614</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3137</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 15版本存在安全漏洞，该漏洞源于应用程序可能能够突破沙盒。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44122</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple多款产品 安全漏洞</name>
+    <vuln-id>CNNVD-202411-227</vuln-id>
+    <published>2024-11-01</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS等都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple tvOS是一套智能电视操作系统。Apple macOS是一套专为Mac计算机所开发的专用操作系统。 Apple多款产品存在安全漏洞，该漏洞源于边界检查不当，解析恶意制作的视频文件可能导致系统意外终止。以下产品及版本受到影响：macOS Sonoma 14.7.1之前版本、macOS Ventura 13.7.1之前版本、visionOS 2.1之前版本、watchOS 11.1之前版本、tvOS 18.1之前版本、iOS 17.7.1之前版本、iPadOS 17.7.1之前版本、之前版本iOS 18.1之前版本和iPadOS 18.1之前版本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44234</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>No Boss Extensions No Boss Testimonials component for Joomla 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3552</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>No Boss Extensions No Boss Testimonials component for Joomla是巴西No Boss Extensions公司的一款Joomla插件。 No Boss Extensions No Boss Testimonials component for Joomla 1.0.0至3.0.0版本和4.0.0至4.0.2版本存在跨站脚本漏洞，该漏洞源于存储型跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54299</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>PHPGurukul Student Result Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3530</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>PHPGurukul Student Result Management System是PHPGurukul公司的一个学生成绩管理系统。 PHPGurukul Student Result Management System v2.0版本存在安全漏洞，该漏洞源于组件/elms/emp-changepassword.php会话失效不当，可能导致会话劫持攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-50490</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3544</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在安全漏洞，该漏洞源于hg pull命令行可能导致密码泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54538</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Maka GPS Marbella KR8s 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3517</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Maka GPS Marbella KR8s是新加坡Maka GPS公司的一款行车记录仪。 Maka GPS Marbella KR8s 2.0.8版本存在安全漏洞，该漏洞源于端口7777存在未授权操作。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-30126</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-1487</vuln-id>
+    <published>2024-12-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS Sonoma 14.7.1之前版本和macOS Ventura 13.7.1之前版本存在安全漏洞，该漏洞源于会泄露用户的凭据。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-54471</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Jingmen Zeyou Large File Upload Control 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3394</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>Jingmen Zeyou Large File Upload Control（泽优全平台文件传输解决方案）是中国荆门泽优（Jingmen Zeyou）公司的一款文件安全传输存储平台。 Jingmen Zeyou Large File Upload Control 6.3及之前版本存在注入漏洞，该漏洞源于文件/index.jsp中参数ID导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8203</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202412-1473</vuln-id>
+    <published>2024-12-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1之前版本和iPadOS 18.1之前版本存在安全漏洞。攻击者利用该漏洞可以导致 DCP 固件中系统意外终止或任意代码执行。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44241</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple多款产品 安全漏洞</name>
+    <vuln-id>CNNVD-202505-1640</vuln-id>
+    <published>2025-05-12</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS等都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple watchOS是一套智能手表操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple多款产品存在安全漏洞，该漏洞源于状态处理不当，可能导致Safari意外崩溃。以下产品受到影响：watchOS、tvOS、iOS、iPadOS、macOS、visionOS和Safari。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-31206</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux-pam 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3030</vuln-id>
+    <published>2025-07-23</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux-pam是Linux团队的一款用于Linux的支持插拔式的系统身份验证软件。 Linux-pam存在安全漏洞，该漏洞源于权限管理不当，可能导致本地权限提升。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-6018</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202501-2266</vuln-id>
+    <published>2025-01-15</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS和Apple iPadOS 18.1之前版本存在安全漏洞，该漏洞源于具有物理访问权限的攻击者可从锁定屏幕访问联系人。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-54470</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Malwarebytes Binisoft Windows Firewall Control 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3511</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Malwarebytes Binisoft Windows Firewall Control是Malwarebytes公司的一个用于增强Windows防火墙功能的第三方工具，它为用户提供了更多高级的防火墙控制选项。 Malwarebytes Binisoft Windows Firewall Control 6.16.0.0之前版本存在安全漏洞，该漏洞源于安装程序容易受到本地权限提升攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54569</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Maka GPS Marbella KR8s 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3516</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Maka GPS Marbella KR8s是新加坡Maka GPS公司的一款行车记录仪。 Maka GPS Marbella KR8s 2.0.8版本存在安全漏洞，该漏洞源于密码明文写入SD卡。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-30124</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Vaelsys V4 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3490</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Vaelsys V4是西班牙Vaelsys公司的一款人工智能视频分析平台。 Vaelsys V4 .1.0版本存在安全漏洞，该漏洞源于对文件/grid/vgrid_server.php中参数xajaxargs的操作导致使用弱哈希。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8260</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3174</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于恶意应用程序可能能够创建指向磁盘受保护区域的符号链接。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44264</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>CampCodes Courier Management System 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3392</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>CampCodes Courier Management System是菲律宾CampCodes公司的一个快递管理系统。 CampCodes Courier Management System 1.0版本存在注入漏洞，该漏洞源于文件/print_pdets.php中参数ids导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8190</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Aruba Networks ArubaOS 安全漏洞</name>
+    <vuln-id>CNNVD-202405-197</vuln-id>
+    <published>2024-05-01</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Aruba Networks ArubaOS是美国安移通（Aruba Networks）公司的一套面向Aruba Mobility-Defined Networks（包括移动控制器和移动接入交换机）的操作系统。 Aruba Networks ArubaOS存在安全漏洞，该漏洞源于通过 PAPI 协议访问的 AP 管理服务中存在未经身份验证的拒绝服务漏洞，攻击者利用该漏洞可以中断受影响服务。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-33515</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3191</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够读取敏感位置信息。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44289</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Polkadot Frontier 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3562</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>Polkadot Frontier是Polkadot EVM开源的一个提供以太坊虚拟机兼容层的应用程序。 Polkadot Frontier 0822030之前版本存在代码问题漏洞，该漏洞源于CallableByContract实现错误，可能导致预编译调用不当。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54429</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3464</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于set_channel_map API支持导致崩溃。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38486</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>IBM Informix Dynamic Server 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3526</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>IBM Informix Dynamic Server（IDS）是美国国际商业机器（IBM）公司的一款可扩展的对象关系数据库服务器，它为集群数据中心提供持续数据可用性和灾难恢复等功能。 IBM Informix Dynamic Server 12.10版本和14.10版本存在安全漏洞，该漏洞源于HTML注入可能导致跨站脚本攻击。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-49343</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202501-2269</vuln-id>
+    <published>2025-01-15</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS和Apple iPadOS 18.1之前版本存在安全漏洞，该漏洞源于有权访问日历数据的攻击者可读取提醒。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-54535</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple多款产品 安全漏洞</name>
+    <vuln-id>CNNVD-202411-231</vuln-id>
+    <published>2024-11-01</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS等都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple tvOS是一套智能电视操作系统。Apple macOS是一套专为Mac计算机所开发的专用操作系统。 Apple多款产品存在安全漏洞，该漏洞源于边界检查不当，解析恶意制作的视频文件可能导致系统意外终止。以下产品及版本受到影响：macOS Sonoma 14.7.1之前版本、macOS Ventura 13.7.1之前版本、visionOS 2.1之前版本、watchOS 11.1之前版本、tvOS 18.1之前版本、iOS 17.7.1之前版本、iPadOS 17.7.1之前版本、iOS 18.1之前版本和iPadOS 18.1之前版本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44233</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin Educenter 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202507-3382</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin Educenter 1.6.2及之前版本存在跨站脚本漏洞，该漏洞源于输入清理和输出转义不足，可能导致存储型跨站脚本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-5529</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin kallyas 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3384</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin kallyas 4.21.0及之前版本存在安全漏洞，该漏洞源于TH_LatestPosts4小部件，可能导致本地文件包含。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-6991</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin Stacks Mobile App Builder 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3041</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin Stacks Mobile App Builder 5.2.3版本及之前版本存在安全漏洞，该漏洞源于包含一个身份认证绕过漏洞。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-50477</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Code-Projects Exam Form Submission 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3484</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>Code-Projects Exam Form Submission是Code-Projects开源的一个考试表格。 Code-Projects Exam Form Submission 1.0版本存在代码问题漏洞，该漏洞源于文件/register.php中参数image的错误操作导致任意文件上传。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8255</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Optimizely Episerver Content Management System 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3492</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Optimizely Episerver Content Management System是美国Optimizely公司的一个企业级内容管理系统。 Optimizely Episerver Content Management System存在安全漏洞，该漏洞源于存储型跨站脚本使经过身份验证的攻击者能执行恶意JavaScript代码。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-27800</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 跨站请求伪造漏洞</name>
+    <vuln-id>CNNVD-202507-3535</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>跨站请求伪造</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在跨站请求伪造漏洞，该漏洞源于外部OAuth登录集成存在CSRF。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54529</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3142</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于应用程序可能能够绕过隐私偏好设置。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44156</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3186</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于解析文件可能会导致用户信息泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44282</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 多款产品安全漏洞</name>
+    <vuln-id>CNNVD-202507-3447</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于原子上下文中触发调度，可能导致死锁。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38496</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>WordPress plugin Melapress Login Security 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3373</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>超危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>WordPress和WordPress plugin都是WordPress基金会的产品。WordPress是一套使用PHP语言开发的博客平台。该平台支持在PHP和MySQL的服务器上架设个人博客网站。WordPress plugin是一个应用插件。 WordPress plugin Melapress Login Security 2.1.0至2.1.1版本存在安全漏洞，该漏洞源于缺少授权，可能导致身份验证绕过。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-6895</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>RevelaCode 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3561</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>RevelaCode是Musombi William个人开发者的一个用于解读圣经经文的AI程序。 RevelaCode 1.0.1之前版本存在安全漏洞，该漏洞源于MongoDB Atlas URI泄露，可能导致数据库未授权访问。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54428</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Phoenix SecureCore 安全漏洞</name>
+    <vuln-id>CNNVD-202505-1771</vuln-id>
+    <published>2025-05-13</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>低危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Phoenix SecureCore是德国菲尼克斯电气（Phoenix）公司的一个计算机基础输入/输出系统。 Phoenix SecureCore存在安全漏洞，该漏洞源于异常条件检查不当，可能导致输入数据操纵。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-12533</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Campcodes Courier Management System 1.0 注入漏洞</name>
+    <vuln-id>CNNVD-202507-3390</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>注入</vuln-type>
+    <vuln-descript>CampCodes Courier Management System是菲律宾CampCodes公司的一个快递管理系统。 Campcodes Courier Management System 1.0版本存在注入漏洞，该漏洞源于文件/edit_staff.php中参数ID导致SQL注入。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8188</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3153</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和 iPadOS 18.1版本存在安全漏洞，该漏洞源于处理图像可能会导致进程内存泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44215</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>CPython 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3503</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>CPython是Python基金会的一个用C语言实现的Python解释器。 CPython存在安全漏洞，该漏洞源于恶意tar文件可能导致无限循环和死锁。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-8194</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3194</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于处理恶意制作的字体可能会导致进程内存泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44302</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>JetBrains TeamCity 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3539</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>JetBrains TeamCity是捷克JetBrains公司的一套分布式构建管理和持续集成工具。该工具提供持续单元测试、代码质量分析和构建问题分析报告等功能。 JetBrains TeamCity 2025.07之前版本存在安全漏洞，该漏洞源于访问控制不当，可能导致VCS配置泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54533</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3190</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于具有 root 权限的攻击者可能能够删除受保护的系统文件。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44294</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3167</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于恶意应用程序可能能够在未经用户同意的情况下运行任意快捷方式。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44255</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Anubis 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3367</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Anubis是Xe Iaso个人开发者的一个工具。 Anubis 1.21.2及之前版本存在安全漏洞，该漏洞源于恶意pass-challenge页面可能导致执行任意JavaScript代码。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54414</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Polkadot Frontier 代码问题漏洞</name>
+    <vuln-id>CNNVD-202507-3560</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity></severity>
+    <vuln-type>代码问题</vuln-type>
+    <vuln-descript>Polkadot Frontier是Polkadot EVM开源的一个提供以太坊虚拟机兼容层的应用程序。 Polkadot Frontier a754b3d之前版本存在代码问题漏洞，该漏洞源于未实现note_min_gas_price_target的check_inherent函数，可能导致Gas价格操纵。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54427</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Linux kernel 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3462</vuln-id>
+    <published>2025-07-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>高危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Linux kernel是美国Linux基金会的开源操作系统Linux所使用的内核。 Linux kernel存在安全漏洞，该漏洞源于crypt_message函数中使用释放后重用。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-38488</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Angular 跨站脚本漏洞</name>
+    <vuln-id>CNNVD-202207-1384</vuln-id>
+    <published>2022-07-15</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>跨站脚本</vuln-type>
+    <vuln-descript>Angular是一个开发平台。用于使用 Typescript / JavaScript 和其他语言构建移动和桌面 Web 应用程序。 Angular存在跨站脚本漏洞，该漏洞源于Internet Explorer 浏览器中的不安全页面缓存允许插入textarea 元素。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2022-25869</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3168</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于攻击者可能能够从锁定屏幕查看受限内容。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44261</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Opencast 安全漏洞</name>
+    <vuln-id>CNNVD-202507-3363</vuln-id>
+    <published>2025-07-26</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Opencast是Opencast组织的一款用于大规模自动视频捕获，管理和分发的直播视频支撑软件。 Opencast 17.6之前版本存在安全漏洞，该漏洞源于错误发送哈希全局系统账户凭据，可能导致凭据泄露。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2025-54380</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple macOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3180</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple macOS是美国苹果（Apple）公司的一套专为Mac计算机所开发的专用操作系统。 Apple macOS 13.7.1版本存在安全漏洞，该漏洞源于解析恶意制作的文件可能会导致应用程序意外终止。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44284</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple多款产品 安全漏洞</name>
+    <vuln-id>CNNVD-202411-230</vuln-id>
+    <published>2024-11-01</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS等都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple tvOS是一套智能电视操作系统。Apple macOS是一套专为Mac计算机所开发的专用操作系统。 Apple多款产品存在安全漏洞，该漏洞源于边界检查不当，解析恶意制作的视频文件可能导致系统意外终止。以下产品及版本受到影响：macOS Sonoma 14.7.1之前版本、macOS Ventura 13.7.1之前版本、visionOS 2.1之前版本、watchOS 11.1之前版本、tvOS 18.1之前版本、iOS 17.7.1之前版本、iPadOS 17.7.1之前版本、之前版本iOS 18.1之前版本和iPadOS 18.1之前版本。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44232</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+  <entry>
+    <name>Apple iOS和Apple iPadOS 安全漏洞</name>
+    <vuln-id>CNNVD-202410-3178</vuln-id>
+    <published>2024-10-28</published>
+    <modified>2025-07-29</modified>
+    <source></source>
+    <severity>中危</severity>
+    <vuln-type>其他</vuln-type>
+    <vuln-descript>Apple iOS和Apple iPadOS都是美国苹果（Apple）公司的产品。Apple iOS是一套为移动设备所开发的操作系统。Apple iPadOS是一套用于iPad平板电脑的操作系统。 Apple iOS 18.1版本和Apple iPadOS 18.1版本存在安全漏洞，该漏洞源于恶意应用程序可能能够访问私人信息。</vuln-descript>
+    <other-id>
+      <cve-id>CVE-2024-44273</cve-id>
+      <bugtraq-id></bugtraq-id>
+    </other-id>
+    <vuln-solution></vuln-solution>
+  </entry>
+</cnnvd>

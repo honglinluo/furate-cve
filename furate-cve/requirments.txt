@@ -1,0 +1,7 @@
+chardet
+requests
+BeautifulSoup
+tqdm
+pymetasploit3
+pymysql
+python-wappalyzer

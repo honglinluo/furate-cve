@@ -1,5 +1,4 @@
 import requests
-import execjs
 from bs4 import BeautifulSoup
 import time
 import random

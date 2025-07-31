@@ -1,7 +1,7 @@
 # coding = utf-8
 import pymysql
 
-from base import importfile
+from config.config_read import ConfigReader
 
 '''
    def __init__(self, host=None, user=None, password="",
@@ -18,11 +18,10 @@ from base import importfile
                  server_public_key=None):
                  '''
 
-conf = importfile.config_ini("../conf/confing.ini", "mysql")
-
 
 class Pysql:
-    conf = importfile.config_ini("../conf/confing.ini", "mysql")
+    conf_obj = ConfigReader()
+    conf = conf_obj.get("mysql")
     host_d = conf["host"]
     user_d = conf["user"]
     password_d = conf["password"]
