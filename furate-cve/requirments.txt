@@ -5,3 +5,8 @@ tqdm
 pymetasploit3
 pymysql
 python-wappalyzer
+configparser
+sqlalchemy==2.0.0
+DrissionPage
+python-nmap
+ipaddress

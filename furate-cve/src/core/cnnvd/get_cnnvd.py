@@ -11,9 +11,10 @@ from tqdm import tqdm
 from bs4 import BeautifulSoup
 from pathlib import Path
 
-from src.utils.logger import Logger
+from src.utils import Logger
 
 logger = Logger("CNNVD")
+
 
 
 class CNNVDCrawler:
@@ -188,6 +189,7 @@ class CNNVDXml:
         :return:
         """
         pass
+
 
 if __name__ == '__main__':
     # crawler = CNNVDCrawler()

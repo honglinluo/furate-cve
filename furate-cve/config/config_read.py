@@ -12,10 +12,11 @@ except ImportError:
 
 
 class ConfigReader:
-    def __init__(self, file_path=None, config_dir='config'):
+    def __init__(self, file_path=None, config_dir=None):
+        super().__init__()
         self.config = {}
         self.current_file = Path(file_path).resolve() if file_path else None
-        self.config_dir = Path(config_dir)
+        self.config_dir = Path(config_dir) if config_dir else Path(__file__).resolve().parent
 
         if file_path:
             self._load_single_file(self.current_file)
@@ -36,8 +37,8 @@ class ConfigReader:
             self._load_py(file_path)
 
     def _load_directory(self):
-        for config_file in self.config_dir.rglob('*'):
-            if config_file.is_file() and config_file != os.path.basename(__file__):
+        for config_file in self.config_dir.iterdir():
+            if config_file.is_file() and config_file.name not in [os.path.basename(__file__), "__init__.py"]:
                 try:
                     self._load_single_file(config_file)
                 except ValueError:
@@ -74,10 +75,10 @@ class ConfigReader:
         spec.loader.exec_module(module)
         self.config.update({
             k: v for k, v in vars(module).items()
-            if k.isupper() and not k.startswith('_')
+            if not k.startswith('_')
         })
 
-    def get(self, key, default=None):
+    def get(self, key, default=None) -> configparser:
         keys = key.split('.')
         value = self.config
         try:
