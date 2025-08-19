@@ -4,17 +4,21 @@ import configparser
 import importlib.util
 from pathlib import Path
 from types import ModuleType
+import yaml
+from src.utils import Logger
+from collections import defaultdict
 
-try:
-    import yaml
-except ImportError:
-    yaml = None
-
+logger = Logger()
 
 class ConfigReader:
-    def __init__(self, file_path=None, config_dir=None):
+    def __init__(self, file_path: Path.is_file = None, config_dir: Path.is_dir = None):
+        """
+        配置文件读取
+        :param file_path: 配置文件地址，默认为当前地址
+        :param config_dir: 配置文件路径，如填写则读取该路径下所有文件
+        """
         super().__init__()
-        self.config = {}
+        self.config = defaultdict(lambda: defaultdict(any))
         self.current_file = Path(file_path).resolve() if file_path else None
         self.config_dir = Path(config_dir) if config_dir else Path(__file__).resolve().parent
 
@@ -23,7 +27,13 @@ class ConfigReader:
         else:
             self._load_directory()
 
-    def _load_single_file(self, file_path):
+    def _load_single_file(self, file_path:Path.is_file):
+        """
+        根据文件后缀名选择对应的读取方法
+        :param file_path:
+        :return:
+        """
+        logger.debug(f"Read config file: {str(file_path)}")
         suffix = file_path.suffix.lower()
         if suffix == '.json':
             self._load_json(file_path)
@@ -37,6 +47,10 @@ class ConfigReader:
             self._load_py(file_path)
 
     def _load_directory(self):
+        """
+        获取指定路径下的所有配置文件
+        :return:
+        """
         for config_file in self.config_dir.iterdir():
             if config_file.is_file() and config_file.name not in [os.path.basename(__file__), "__init__.py"]:
                 try:
@@ -45,22 +59,46 @@ class ConfigReader:
                     continue
 
     def _load_json(self, file_path):
+        """
+        读取json文件
+        :param file_path: json文件路径
+        :return:
+        """
         with open(file_path, 'r', encoding='utf-8') as f:
             self.config.update(json.load(f))
 
     def _load_yaml(self, file_path):
+        """
+        读取yaml配置文件
+        :param file_path: yaml文件路径
+        :return:
+        """
         if yaml is None:
             raise ImportError("PyYAML required for YAML support")
         with open(file_path, 'r', encoding='utf-8') as f:
             self.config.update(yaml.safe_load(f) or {})
 
     def _load_ini(self, file_path):
+        """
+        读取ini类型配置文件
+        :param file_path: ini 文件路径
+        :return:
+        """
         parser = configparser.ConfigParser()
-        parser.read(file_path)
+        parser.read(file_path, encoding="utf-8")
         for section in parser.sections():
-            self.config[section] = dict(parser.items(section))
+            for key, value in parser.items(section):
+                if ',' in value:
+                    self.config[section][key] = value.split(',')
+                else:
+                    self.config[section][key] = value
 
     def _load_env(self, file_path):
+        """
+        读取env类型配置文件
+        :param file_path: env 文件路径
+        :return:
+        """
         with open(file_path, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
@@ -69,6 +107,11 @@ class ConfigReader:
                     self.config[key.strip()] = value.strip()
 
     def _load_py(self, file_path):
+        """
+        读取py类型配置文件
+        :param file_path: py 文件路径
+        :return:
+        """
         module_name = file_path.stem
         spec = importlib.util.spec_from_file_location(module_name, str(file_path))
         module = importlib.util.module_from_spec(spec)
@@ -79,6 +122,12 @@ class ConfigReader:
         })
 
     def get(self, key, default=None) -> configparser:
+        """
+        根据对应的key，返回对应的配置信息
+        :param key: 徐亚获取的配置
+        :param default: 默认返回内容
+        :return:
+        """
         keys = key.split('.')
         value = self.config
         try:

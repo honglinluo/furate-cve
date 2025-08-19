@@ -5,6 +5,7 @@
 4、对当前页面及跳转页面进行漏洞搜索，如文件上传、sql注入、XXE等漏洞验证
 5、对服务器端口进行扫描
 """
+from src.core.web.web_fingerprint import WebFingerPrinter
 from src.utils import *
 from config.config_read import ConfigReader
 from DrissionPage import Chromium, ChromiumOptions
@@ -12,7 +13,7 @@ from typing import List, Dict, Literal, Union, Iterable
 from DrissionPage.items import MixTab
 from collections import defaultdict
 
-logger = Logger()
+logger = Logger(level="DEBUG")
 
 
 class Web:
@@ -35,16 +36,18 @@ class Web:
         co = ChromiumOptions()
         # co.no_imgs(True) # 无图片模式
         # co.mute(True) # 无声音
-        web = Chromium(co)
+        web = Chromium(addr_or_opts=co)
         return web
 
-    def create_table(self, urls: str | list = None, is_latest_tab: bool = True) -> Dict[MixTab]:
+    def create_table(self, urls: Union[str, list, None] = None, is_latest_tab: bool = True) -> Dict[str, MixTab]:
         """
         创建table页面，并打开url链接
         :param urls: 需要打开的url链接
         :param is_latest_tab: 是否在当前页面打开
         :return: {url:table}
         """
+        if urls is None:
+            urls = [self.url]
         if isinstance(urls, str):
             urls = [urls]
 
@@ -65,8 +68,7 @@ class Web:
 
         return url_tables
 
-    @staticmethod
-    def listen_table(table: MixTab, url: str, res_type: Union[__RES_TYPE__, list, tuple, set, bool, None] = None):
+    def listen_table(self, table: MixTab, url: str, res_type: Union[__RES_TYPE__, list, tuple, set, bool, None] = None):
         """
         监听页面接口信息
         :param table:
@@ -74,14 +76,19 @@ class Web:
         :param res_type:
         :return:
         """
+        if res_type is None:
+            res_type = self.conf.get('web.ResType')
+        packets_list = list()
         table.listen.start(res_type=res_type)
         table.get(url)
-        logger.info("Open utl:{table.tab_id}>>{c_url}")
-        table.listen.wait_silent(timeout=10)
-        packets = table.listen.steps()
+        logger.info(f"Open url:{table.tab_id} >> {url}")
+        packets = table.listen.steps(timeout=int(self.conf.get("web.timeout", 5)))
+        for packet in packets:
+            packets_list.append(packet)
+            logger.debug(f"Listen API: {packet.url}")
         table.listen.stop()
-        logger.info("Listen table API num:{len(packets)}")
-        return packets
+        logger.info(f"Listen table API num: {len(packets_list)}")
+        return packets_list
 
     def table_info(self, table: MixTab):
         """
@@ -108,3 +115,10 @@ class APIParse:
         :param packets: 接口列表
         """
         self.packets = packets if isinstance(packets, list) else [packets]
+        self.web_fp = WebFingerPrinter()
+
+
+if __name__ == '__main__':
+    u = "https://drissionpage.cn/browser_control/browser_object/"
+    web = Web(url=u)
+    web.create_table()
