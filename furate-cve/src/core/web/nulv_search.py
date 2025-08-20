@@ -78,7 +78,7 @@ class Web:
             table: MixTab,
             url: str,
             res_type: Union[__RES_TYPE__, list, tuple, set, bool, None] = None
-    ) -> tuple[list[Response], dict[str, dict]]:
+    ) -> tuple[list[DataPacket | list[DataPacket]], dict[str, dict]]:
         """
         监听页面接口信息
         :param table: 用于请求url的页面
@@ -95,7 +95,7 @@ class Web:
         logger.info(f"Open url:{table.tab_id} >> {url}")
         packets = table.listen.steps(timeout=int(self.conf.get("WEB.timeout", 5)))
         for packet in packets:
-            packets_list.append(packet.response)
+            packets_list.append(packet)
             logger.debug(f"Listen API: {packet.url}")
             if packet.url == url:
                 url_packet = packet
@@ -104,7 +104,7 @@ class Web:
         tech_stack = self.fingerprint(url=url, headers=url_packet.request.headers)
         return packets_list, tech_stack
 
-    def fingerprint(self, url: str = None, response: requests.Response = None, *args, **kwargs):
+    def fingerprint(self, url: str = None, response: requests.Response = None, *args, **kwargs) -> Dict[str, dict]:
         """
         根据url获取网站的技术栈
         :param response: 响应数据
