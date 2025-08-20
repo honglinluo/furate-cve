@@ -1,6 +1,6 @@
 from src.utils import Logger, requests_url, run as asyncio_run
 from src.core.msf.msf_rpc_client import MsfClient
-from src.core.web.web_fingerprint import WebFingerPrinter
+from src.core.web.fingerprint import WebFingerPrinter
 from config.config_read import ConfigReader
 from typing import List
 import asyncio

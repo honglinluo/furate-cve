@@ -19,7 +19,7 @@ class Database:
         :param table_name:
         :return:
         """
-        msf = MsfClient(config=self.conf_obj.get("client_info"))
+        msf = MsfClient(config=self.conf_obj.get("MSF"))
         search_result = msf.search("linux")
         print(search_result)
 

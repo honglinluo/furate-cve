@@ -13,17 +13,17 @@ class MsfClient:
 
     def cli(self, config, **kwargs):
         client = MsfRpcClient(
-            password=base64.b64decode(config["password"]).decode("utf-8"),
-            username=config["username"],
-            server=config["host"],
+            password=base64.b64decode(config["PassWord"]).decode("utf-8"),
+            username=config["UserName"],
+            server=config["Host"],
             ssl=True,
-            port=config["port"],
-            header=config["header"],
+            port=config["Port"],
+            header=config["Header"],
             **kwargs
         )
         if not client.login(
-                user=config["username"],
-                password=base64.b64decode(config["password"]).decode("utf-8")
+                user=config["UserName"],
+                password=base64.b64decode(config["PassWord"]).decode("utf-8")
         ):
             raise ConnectionError("MsfRpcClient connection failed")
 
