@@ -192,6 +192,7 @@ class TableParse:
         """
         # 查找所有的a标签
         links = self.tag_a()
+        inputs = self.upload_file()
 
     def tag_a(self) -> Dict[str, any]:
         """
