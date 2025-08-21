@@ -13,8 +13,9 @@ from DrissionPage import Chromium, ChromiumOptions
 from typing import List, Dict, Literal, Union, Iterable, Tuple
 from DrissionPage.items import MixTab
 from collections import defaultdict
-from tqdm import tqdm
+from bs4 import BeautifulSoup
 import requests
+from urllib import parse
 
 logger = Logger(level="INFO")
 
@@ -65,7 +66,6 @@ class Web:
             packets, tech_stack = self.listen_table(table, c_url)
             url_tables[c_url]["table"] = table.tab_id
             url_tables[c_url]["packet"] = packets
-            requests.get(url=c_url, )
         for url in urls:
             table = self.web.new_tab()
             packets, tech_stack = self.listen_table(table, url)
@@ -101,7 +101,8 @@ class Web:
                 url_packet = packet
         table.listen.stop()
         logger.info(f"Listen table API num: {len(packets_list)}")
-        tech_stack = self.fingerprint(url=url, headers=url_packet.request.headers)
+        # tech_stack = self.fingerprint(url=url, headers=url_packet.request.headers)
+        tech_stack = {}
         return packets_list, tech_stack
 
     def fingerprint(self, url: str = None, response: requests.Response = None, *args, **kwargs) -> Dict[str, dict]:
@@ -115,18 +116,53 @@ class Web:
         """
         logger.info("Get the tech stack...")
         if url and response is None:
-            response = requests.get(url=url, verify=True, *args, **kwargs)
-        result = self.web_fp.analyze_response(response)
+            rerequests_max_num = 3
+            rerequests_num = 0
+            while True:
+                rerequests_num += 1
+                try:
+                    response = requests.get(url=url, verify=True, *args, **kwargs)
+                except requests.exceptions.Timeout as te:
+                    logger.warning(f"Request timeout, frerequests {rerequests_num}")
+                    if rerequests_num > rerequests_max_num:
+                        logger.error(f"The request timed out 3 times. \n {te}")
+                        break
+                except Exception as e:
+                    logger.error(e)
+        if response:
+            result = self.web_fp.analyze_response(response)
+        else:
+            result = {}
         logger.info(f"Number of tech stacks: {len(result)}")
         return result
 
-    def table_info(self, table: MixTab = None):
+    def table_info(self, table: str):
         """
         对页面内容进行解析
         :param table:
         :return:
         """
-        pass
+        table_parse = TableParse(self.web.get_tab(id_or_num=table))
+        table_parse.analyse()
+
+    def packet_info(self, packet: DataPacket):
+        """
+        对接口信息进行分析
+        :param packet:
+        :return:
+        """
+        api_parse = APIParse(packet)
+        api_parse.analyse()
+
+    def run_web(self, *args, **kwargs):
+        """
+        启动web进行漏洞扫描
+        :return:
+        """
+        tables = self.create_table(urls=kwargs.get("urls", None), is_latest_tab=True)
+        for url, value in tables.items():
+            self.table_info(value["table"])
+            self.packet_info(value["packet"])
 
 
 class TableParse:
@@ -136,6 +172,84 @@ class TableParse:
         :param table:
         """
         self.table = table
+        self.url_parse = parse.urlparse(self.table.url)
+        self.html = BeautifulSoup(table.html, "lxml")
+
+    @property
+    def base_url(self):
+        return f"{self.url_parse.scheme}://{self.url_parse.netloc}"
+
+    @base_url.setter
+    def base_url(self, value: str):
+        value_parse = parse.urlparse(value)
+        if value_parse.scheme and value_parse.netloc:
+            self.url_parse = value_parse
+
+    def analyse(self):
+        """
+        对页面进行分析，分析页面中的跳转地址、输入框、登录表单、上传地址等内容
+        :return:
+        """
+        # 查找所有的a标签
+        links = self.tag_a()
+
+    def tag_a(self) -> Dict[str, any]:
+        """
+        获取页面中的所有a标签信息
+        :return: 返回a标签的跳转链接
+        """
+        a_list = self.html.findAll("a")
+        href_all = {}
+        for tag in a_list:
+            href = tag['href']
+
+            # 排除本页面跳转的链接
+            if '#' in href:
+                continue
+
+            if '://' not in href:
+                href = parse.urljoin(self.base_url, href)
+            href_all[href] = tag
+            logger.debug(f'Get href: {href}')
+
+        logger.info(f'Number of link: {len(href_all)}')
+        return href_all
+
+    def upload_file(self):
+        """
+        确定页面中是否有文件上传
+        :return:
+        """
+        file_inputs = self.html.find_all('input')
+        input_all = defaultdict(any)
+        for tag in file_inputs:
+            if tag.get('type') in ['file', 'image']:
+                input_all[tag.get('type')] = tag
+
+        return input_all
+
+    @staticmethod
+    def generate_xpath(tag, is_class=True):
+        def path_generator(t):
+            components = []
+            for parent in t.parents:
+                if parent.name == '[document]':
+                    break
+                siblings = [sib for sib in parent.find_previous_siblings(t.name)
+                            if sib.name == t.name]
+                position = len(siblings) + 1
+                components.append(f"{t.name}[{position}]")
+                t = parent
+            components.reverse()
+            return '/' + '/'.join(components)
+
+        # 优先检查唯一属性
+        if tag.get('id'):
+            return f"//{tag.name}[@id='{tag['id']}']"
+        if is_class and tag.get('class'):
+            return f"//{tag.name}[contains(@class,'{tag['class'][0]}')]"
+
+        return path_generator(tag)
 
 
 class APIParse:
@@ -170,4 +284,4 @@ class APIParse:
 if __name__ == '__main__':
     u = "https://drissionpage.cn/browser_control/browser_object/"
     web = Web(url=u)
-    web.create_table()
+    web.run_web()
