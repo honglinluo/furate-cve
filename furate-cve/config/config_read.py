@@ -5,10 +5,10 @@ import importlib.util
 from pathlib import Path
 from types import ModuleType
 import yaml
-from src.utils import Logger
+from src import utils
 from collections import defaultdict
 
-logger = Logger()
+logger = utils.Logger()
 
 class ConfigReader:
     def __init__(self, file_path: Path.is_file = None, config_dir: Path.is_dir = None):
@@ -135,6 +135,7 @@ class ConfigReader:
                 value = value[k]
             return value
         except (KeyError, TypeError):
+            logger.debug(f"The configuration information of {key} is not obtained")
             return default
 
 

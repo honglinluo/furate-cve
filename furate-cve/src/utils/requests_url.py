@@ -1,12 +1,18 @@
 import requests
 from src.utils.logger import Logger
+import urllib.parse
+import asyncio
+import aiohttp
+from bs4 import BeautifulSoup
+from urllib.parse import urljoin
 
 logger = Logger()
 
 
 @logger.log_duration
 def requests_url(url, method='get', *args, **kwargs):
-    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    user_agent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 " \
+                 "Safari/537.36"
 
     if "headers" not in kwargs.keys():
         kwargs["headers"] = {"User-Agent": user_agent}
@@ -14,17 +20,31 @@ def requests_url(url, method='get', *args, **kwargs):
         kwargs["headers"]["User-Agent"] = user_agent
     logger.info(f"{method}: {url}")
 
-    response = requests.request(method=method, url=url, *args, **kwargs)
+    rerequests_max_num = 3
+    rerequests_num = 0
+    response = None
+    while True:
+        rerequests_num += 1
+        try:
+            response = requests.request(url=url, method=method, *args, **kwargs)
+        except requests.exceptions.Timeout as te:
+            if rerequests_num <= rerequests_max_num:
+                logger.warning(f"Request timeout, frerequests {rerequests_num}")
+                continue
+            else:
+                raise requests.exceptions.ConnectionError(f"The request timed out 3 times.")
+        except Exception as e:
+            raise e
+
+        break
 
     # debug requests info
     logger.debug(f"{response.request.path_url} requests headers: {response.request.headers}")
-    if response.request.method in ["post", "put"]:
+    if response.request.method in ["POST", "PUT"]:
         logger.debug(f"{response.request.path_url} {response.request.method} data: {response.request.body}")
 
     # debug response headers
     logger.debug(f"{response.request.path_url} response headers: {response.headers}")
-
-    response.raise_for_status()
 
     return response
 
@@ -33,10 +53,7 @@ async def requests_async(url, method='get', *args, **kwargs):
     pass
 
 
-import asyncio
-import aiohttp
-from bs4 import BeautifulSoup
-from urllib.parse import urljoin
+
 
 
 async def fetch(session, url):
@@ -90,6 +107,29 @@ def run(url):
     target_url = url
     result = asyncio.run(crawl_all(target_url))
     print(f"Fetched {len(result['resources'])} dependencies")
+
+
+def build_url(host, port, path="", scheme="http"):
+    """
+    构建完整URL
+    :param host: 主机地址(如'example.com')
+    :param port: 端口号(如8080)
+    :param path: URL路径(如'/api/v1')
+    :param scheme: 协议类型(默认http)
+    :return: 完整URL字符串
+    """
+    if not isinstance(port, int):
+        port = int(port)
+
+    netloc = f"{host}:{port}" if port not in [80, 443] else host
+    return urllib.parse.urlunparse((
+        scheme,
+        netloc,
+        path.lstrip('/'),
+        '',
+        '',
+        ''
+    ))
 
 
 # if __name__ == "__main__":
