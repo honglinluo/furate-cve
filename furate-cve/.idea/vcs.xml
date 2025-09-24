@@ -2,6 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/trickest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/trickest/cve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/data/trickest/nvd-json-data-feeds" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/src/api/fofa" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/core" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/src/core/sqlmap" vcs="Git" />
   </component>

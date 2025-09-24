@@ -1,14 +1,27 @@
-import os
-import json
 import configparser
 import importlib.util
-from pathlib import Path
-from types import ModuleType
-import yaml
-from src import utils
+import json
+import os
 from collections import defaultdict
+from pathlib import Path
 
-logger = utils.Logger()
+import logging
+import yaml
+import base64
+
+
+def base64_utf8(value):
+    if not isinstance(value, str):
+        return value
+
+    try:
+        decode = base64.b64decode(value)
+        decode.decode('utf-8')
+        return decode
+
+    except Exception:
+        return value
+
 
 class ConfigReader:
     def __init__(self, file_path: Path.is_file = None, config_dir: Path.is_dir = None):
@@ -27,13 +40,13 @@ class ConfigReader:
         else:
             self._load_directory()
 
-    def _load_single_file(self, file_path:Path.is_file):
+    def _load_single_file(self, file_path: Path.is_file):
         """
         根据文件后缀名选择对应的读取方法
         :param file_path:
         :return:
         """
-        logger.debug(f"Read config file: {str(file_path)}")
+        logging.debug(f"Read config file: {str(file_path)}")
         suffix = file_path.suffix.lower()
         if suffix == '.json':
             self._load_json(file_path)
@@ -133,9 +146,9 @@ class ConfigReader:
         try:
             for k in keys:
                 value = value[k]
-            return value
+            return base64_utf8(value)
         except (KeyError, TypeError):
-            logger.debug(f"The configuration information of {key} is not obtained")
+            logging.debug(f"The configuration information of {key} is not obtained")
             return default
 
 

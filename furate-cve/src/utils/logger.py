@@ -7,7 +7,8 @@ import sys
 # 配置日志的基本信息，默认输出到标准错误流
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+    format='%(process)d > %(thread)d (%(threadName)s) |'
+           ' %(asctime)s - %(name)s (%(lineno)s) - %(levelname)s - %(message)s'
 )
 
 

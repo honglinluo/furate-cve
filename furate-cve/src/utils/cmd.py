@@ -102,17 +102,17 @@ def get_child_processes(pid=None, name=None):
         return active_children()
 
 
-def thread_fun(thread_func, thread_name=None, join=3, *args, **kwargs):
+def thread_fun(fun, name=None, join=3, *args, **kwargs):
     """
     在进程中创建单个线程
     :param join: 等待时间
-    :param thread_func: 运行方法
-    :param thread_name: 线程名称
+    :param fun: 运行方法
+    :param name: 线程名称
     :param args:
     :param kwargs:
     :return:
     """
-    t = threading.Thread(target=thread_func, name=thread_name, args=(*args,), kwargs={**kwargs})
+    t = threading.Thread(target=fun, name=name, args=(*args,), kwargs={**kwargs})
     t.start()
     logger.info(f"Thread {t.native_id} was created successfully")
     if join:

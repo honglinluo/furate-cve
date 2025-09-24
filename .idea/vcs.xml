@@ -2,5 +2,12 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/furate-cve/data/trickest" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/furate-cve/data/trickest/cve" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/furate-cve/data/trickest/nvd-json-data-feeds" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/furate-cve/src/api" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/furate-cve/src/api/fofa" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/furate-cve/src/core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/furate-cve/src/core/sqlmap" vcs="Git" />
   </component>
 </project>

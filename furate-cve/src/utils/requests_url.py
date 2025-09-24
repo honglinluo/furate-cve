@@ -1,4 +1,5 @@
 import requests
+import urllib3
 from src.utils.logger import Logger
 import urllib.parse
 import asyncio
