@@ -1,0 +1,10 @@
+{
+  "wab": {
+    "ReadFile": [
+      "CVE-2025-9805"
+    ],
+    "UploadFile": [
+      "Inforcenter"
+    ]
+  }
+}

@@ -19,6 +19,8 @@ def requests_url(url, method='get', *args, **kwargs):
         kwargs["headers"] = {"User-Agent": user_agent}
     elif "User-Agent" not in kwargs["headers"].keys():
         kwargs["headers"]["User-Agent"] = user_agent
+    if 'timeout' not in kwargs.keys():
+        kwargs['timeout'] = 3
     logger.info(f"{method}: {url}")
 
     rerequests_max_num = 3
