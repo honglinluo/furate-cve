@@ -35,7 +35,7 @@ def requests_url(url, method='get', *args, **kwargs):
                 logger.warning(f"Request timeout, frerequests {rerequests_num}")
                 continue
             else:
-                raise requests.exceptions.ConnectionError(f"The request timed out 3 times.")
+                raise ConnectionError(f"The request timed out 3 times.")
         except Exception as e:
             raise e
 
