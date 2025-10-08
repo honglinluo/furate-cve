@@ -32,10 +32,11 @@ def requests_url(url, method='get', *args, **kwargs):
             response = requests.request(url=url, method=method, *args, **kwargs)
         except requests.exceptions.Timeout as te:
             if rerequests_num <= rerequests_max_num:
-                logger.warning(f"Request timeout, frerequests {rerequests_num}")
+                logger.warning(f"Request timeout, retry {rerequests_num} again")
                 continue
             else:
-                raise ConnectionError(f"The request timed out 3 times.")
+                logger.error(f"{method}:{url} request timed out 3 times.")
+                return None
         except Exception as e:
             raise e
 
@@ -54,9 +55,6 @@ def requests_url(url, method='get', *args, **kwargs):
 
 async def requests_async(url, method='get', *args, **kwargs):
     pass
-
-
-
 
 
 async def fetch(session, url):
@@ -134,21 +132,19 @@ def build_url(host, port, path="", scheme="http"):
         ''
     ))
 
-
 # if __name__ == "__main__":
 #     target_url = "https://example.com"
 #     result = asyncio.run(crawl_all(target_url))
 #     print(f"Fetched {len(result['resources'])} dependencies")
 
 
-
 # if __name__ == "__main__":
-    # logger.info(f"run requests")
-    # data = {
-    #     'page_no': 1,
-    #     'page_size': 20,
-    #     'rating_flag': 'true'
-    # }
-    # # response_1 = requests_url("https://ti.qianxin.com/alpha-api/v2/vuln/vuln-list", 'post', data=data)
-    # requests_1 = requests_url("http://www.baidu.com/", params={"wd": 1})
-    # # print(response.text)
+# logger.info(f"run requests")
+# data = {
+#     'page_no': 1,
+#     'page_size': 20,
+#     'rating_flag': 'true'
+# }
+# # response_1 = requests_url("https://ti.qianxin.com/alpha-api/v2/vuln/vuln-list", 'post', data=data)
+# requests_1 = requests_url("http://www.baidu.com/", params={"wd": 1})
+# # print(response.text)
