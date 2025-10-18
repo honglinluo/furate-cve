@@ -1,6 +1,14 @@
-create database if not exists  cve;
+create database if not exists  vuln;
+# drop database cve;
+show databases ;
+# SELECT VERSION();
+use vuln;
+show tables;
+# show create table vulnerabilities;
+# SHOW VARIABLES LIKE '%ssl%';
 
-CREATE TABLE IF NOT EXISTS cve.`msf_module` (
+
+CREATE TABLE IF NOT EXISTS vuln.`msf_module` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '自增主键',
   `fullname` VARCHAR(150) COLLATE utf8mb4_bin NOT NULL COMMENT '模块全路径(如exploit/windows/smb/ms17_010_eternalblue)',
   `module_type` ENUM('exploit','auxiliary','payload','post','encoder','nop') NOT NULL COMMENT '模块类型',
@@ -22,12 +30,15 @@ CREATE TABLE IF NOT EXISTS cve.`msf_module` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci
 COMMENT='Metasploit框架模块表';
 
+drop table vulnerabilities;
 
-CREATE TABLE if not exists cve.`vulnerabilities` (
+CREATE TABLE if not exists vuln.`vuln_info` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  `cve_id` VARCHAR(20) NOT NULL COMMENT 'CVE标准编号',
+  `cve_id` VARCHAR(20) COMMENT 'CVE标准编号',
+  `cnvd_id` VARCHAR(20) COMMENT 'CNVD标准编号',
+  `cnnvd_id` VARCHAR(20) COMMENT 'CNNVD标准编号',
   `vuln_name` VARCHAR(255) NOT NULL COMMENT '漏洞名称',
-  `discovery_date` DATE NOT NULL COMMENT '发现日期',
+  `discovery_date` DATE COMMENT '发现日期',
   `disclosure_date` DATE COMMENT '公开日期',
   `severity` ENUM('Critical','High','Medium','Low') NOT NULL COMMENT '严重等级',
   `cvss_score` DECIMAL(3,1) UNSIGNED COMMENT 'CVSS评分',
@@ -35,13 +46,15 @@ CREATE TABLE if not exists cve.`vulnerabilities` (
   `vuln_type` VARCHAR(50) NOT NULL COMMENT '漏洞类型(SQLi/XSS等)',
   `description` TEXT NOT NULL COMMENT '漏洞描述',
   `poc_code` LONGTEXT COMMENT '验证代码',
-  `solution` TEXT NOT NULL COMMENT '修复方案',
-  `reference_urls` JSON COMMENT '参考链接',
+  `solution` TEXT COMMENT '修复方案',
+  `reference_urls` TEXT COMMENT '参考链接(JSON格式)',
   `is_zero_day` BOOLEAN DEFAULT FALSE COMMENT '是否零日漏洞',
-  `created_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+  `created_at` DATETIME,
   `updated_at` TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `idx_cve` (`cve_id`),
+  KEY `cve` (`cve_id`),
+  KEY `cnvd` (`cnvd_id`),
+  KEY `cnnvd` (`cnnvd_id`),
   KEY `idx_severity` (`severity`),
   KEY `idx_date` (`discovery_date`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='漏洞详情主表';
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci COMMENT='漏洞详情表';

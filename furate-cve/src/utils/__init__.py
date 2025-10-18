@@ -5,6 +5,7 @@ __all__ = [
     "Logger",
     "requests_url",
     "run",
+    "build_url",
     "safe_exec",
     "get_project_root",
     "get_script_dir",

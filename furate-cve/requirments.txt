@@ -12,3 +12,8 @@ python-nmap
 ipaddress
 fofa-py
 dnspython
+dataset
+dataset[complete]
+mysqlclient
+jaydebeapi
+timezone
