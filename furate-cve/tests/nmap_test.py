@@ -5,7 +5,7 @@ nm = nmap.PortScanner()
 
 # 定义目标主机
 # host = '192.168.50.128'
-host = '127.0.0.1'
+host = '218.93.178.254'
 
 # 执行全端口扫描（使用-p-参数）
 nm.scan(hosts=host, arguments='-p-')  # '-p-' 表示扫描所有端口

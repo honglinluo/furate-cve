@@ -1,66 +1,142 @@
 import logging
 import os
 import time
+from datetime import datetime
 from functools import wraps
 import sys
-
-# 配置日志的基本信息，默认输出到标准错误流
-logging.basicConfig(
-    level=logging.INFO,
-    format='%(process)d > %(thread)d (%(threadName)s) |'
-           ' %(asctime)s - %(name)s (%(lineno)s) - %(levelname)s - %(message)s'
-)
+import traceback
+from typing import Optional, Dict, Any
+from logging.handlers import RotatingFileHandler
+import inspect
 
 
 class Logger:
-    def __init__(self, name=None, level="INFO"):
-        if not name:
-            abs_path = sys.argv[0]
-            name = os.path.relpath(abs_path, start=os.getcwd())
-        self.logger = logging.getLogger(name)
-        # 设定日志级别，强制转换为有效的级别
-        self.logger.setLevel(logging.getLevelName(level))
+    """优化的日志处理器类，支持多日志级别和日志轮转"""
 
-    def debug(self, message):
-        self.logger.debug(message)
+    def __init__(
+            self,
+            name: str = None,
+            log_file: str = None,
+            max_bytes: int = 10 * 1024 * 1024,  # 10MB
+            backup_count: int = 5,
+            level: int | str = logging.INFO,
+    ):
+        """
+        初始化日志记录器
+        参数:
+            name: 日志记录器名称
+            log_file: 日志文件路径
+            max_bytes: 单个日志文件最大字节数
+            backup_count: 保留的备份日志文件数
+            log_level: 默认日志级别
+        """
+        current_time = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+        self.logger = logging.getLogger(name or self.__name())
+        if isinstance(level, int):
+            self.logger.setLevel(level)
+        else:
+            self.logger.setLevel(logging.getLevelName(level))
 
-    def info(self, message):
-        self.logger.info(message)
+        if log_file is None:
+            path_sep = os.getcwd().split(os.sep)
+            index = path_sep.index('furate-cve')
+            path_sep = path_sep[: index + 1]
 
-    def warning(self, message):
-        self.logger.warning(message)
+            path_sep.extend(["logs", f"app_{current_time}.log"])
+            log_file = f"{os.sep}".join(path_sep)
 
-    def error(self, message, *args, **kwargs):
-        self.logger.error(message, *args, **kwargs)
+        self.logger.propagate = False  # 禁止传播到父logger
+        # 防止重复添加handler
+        if not self.logger.handlers:
+            self._setup_handlers(log_file, max_bytes, backup_count)
 
-    # 可以添加更多日志级别的方法，如critical, exception等
+    def __name(self):
+        """
+        跟去当前调用栈列表获取调用信息
+        :return: 栈列表组成的字符串
+        """
+        project_path = os.path.dirname(sys.path[0])
+        call_stack = inspect.stack()
+        new_stack = [stack for stack in call_stack if project_path in stack.filename and
+                     stack.filename != __file__ and '__init__.py' not in stack.filename]
 
-    def with_context(self, context_manager):
-        """启始上下文日志记录"""
-        self.start_logging()
-        context_manager.__enter__()
-        yield
-        context_manager.__exit__()
-        self.stop_logging()
+        return new_stack[0][0].f_globals['__name__']
 
-    def start_logging(self):
-        logging.currentprocess().setrecursionlimit(1000000)
+    def _setup_handlers(self, log_file: str, max_bytes: int, backup_count: int):
+        """配置日志处理器"""
+        # 文件处理器（带轮转）
+        file_handler = RotatingFileHandler(
+            log_file,
+            maxBytes=max_bytes,
+            backupCount=backup_count,
+            encoding='utf-8'
+        )
+        file_formatter = logging.Formatter(
+            '%(process)d > %(thread)d (%(threadName)s) | %(asctime)s - %(name)s - %(levelname)s - %(message)s'
+        )
+        file_handler.setFormatter(file_formatter)
 
-    def stop_logging(self):
-        if hasattr(logging, 'currentprocess'):
-            current_process = logging.currentprocess()
-            if hasattr(current_process, 'logging_dict'):
-                del current_process.logging_dict['log']
-                # 可以根据需要添加或删除其他属性
+        # 控制台处理器
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_formatter = logging.Formatter(
+            '%(name)s (%(lineno)s) - %(levelname)s - %(message)s'
+        )
+        console_handler.setFormatter(console_formatter)
 
-    def log(self, level, message):
-        try:
-            method = getattr(self.logger, level.lower())
-            method(message)
-        except AttributeError as e:
-            raise AttributeError(f"错误级别 {level} 不存在。请检查输入是否正确。")
+        self.logger.addHandler(file_handler)
+        self.logger.addHandler(console_handler)
 
-    # 可以根据需要添加异常处理、多线程支持等功能
+    def log(
+            self,
+            level: int,
+            message: str,
+            exc_info: Optional[Exception] = None,
+            extra: Optional[Dict[str, Any]] = None
+    ):
+        """
+        记录日志
+        参数:
+            level: 日志级别
+            message: 日志消息
+            exc_info: 异常信息
+            extra: 额外上下文信息
+        """
+        self.logger.name = self.__name()
+        if exc_info:
+            exc_trace = traceback.format_exc()
+            message = f"{message}\n{exc_trace}"
+
+        self.logger.log(level, message, extra=extra)
+
+    def debug(self, message: str, extra: Optional[Dict[str, Any]] = None):
+        """记录DEBUG级别日志"""
+        self.log(logging.DEBUG, message, extra=extra)
+
+    def info(self, message: str, extra: Optional[Dict[str, Any]] = None):
+        """记录INFO级别日志"""
+        self.log(logging.INFO, message, extra=extra)
+
+    def warning(self, message: str, extra: Optional[Dict[str, Any]] = None):
+        """记录WARNING级别日志"""
+        self.log(logging.WARNING, message, extra=extra)
+
+    def error(
+            self,
+            message: str,
+            exc_info: Optional[Exception] = None,
+            extra: Optional[Dict[str, Any]] = None
+    ):
+        """记录ERROR级别日志"""
+        self.log(logging.ERROR, message, exc_info, extra)
+
+    def critical(
+            self,
+            message: str,
+            exc_info: Optional[Exception] = None,
+            extra: Optional[Dict[str, Any]] = None
+    ):
+        """记录CRITICAL级别日志"""
+        self.log(logging.CRITICAL, message, exc_info, extra)
 
     def log_duration(self, func):
         name = func.__name__
@@ -76,12 +152,12 @@ class Logger:
                 duration = time.time() - start_time
 
                 # 使用Logger记录日志
-                self.info(f"function {name} PASS，run time: {duration}")
+                self.info(f"function {name} PASS，run time: {duration:.6f}")
 
                 return result
 
             except Exception as e:
-                self.error(f"function {name} FALL：{str(e)}", exc_info=True)
+                self.error(f"function {name} FALL：{str(e)}", exc_info=None)
                 raise e  # 抛出原来的异常
 
         return wrapper

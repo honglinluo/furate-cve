@@ -2,7 +2,7 @@ import json
 
 from config import ConfigReader
 from src import utils
-import dataset
+from src.db.mysql_connect import ConMySql
 from typing import List, Union
 from datetime import datetime, timezone, timedelta
 
@@ -197,13 +197,8 @@ def save_mysql(data: Union[VulnInfo, List[VulnInfo]], keys=None):
     将漏洞数据保存到数据库中
     :return:
     """
-    cof = config.get('MYSQL')
-    url = f"mysql://{cof.get('user')}:{cof.get('password')}@{cof.get('host')}/{cof.get('database')}"
-    db = dataset.connect(url=url)
-    table = db.load_table('vuln_info')
-    if not table.exists:
-        logger.error(f"Not table {cof.get('database')}.vuln_info")
-        return None
+    mysql_con = ConMySql('vuln_info')
+    table = mysql_con.table
     save_json = []
     if not isinstance(data, list):
         data = [data]
@@ -240,7 +235,6 @@ def save_mysql(data: Union[VulnInfo, List[VulnInfo]], keys=None):
             else:
                 table.insert_many(save_json)
             save_json.clear()
-    db.close()
 
 
 if __name__ == '__main__':

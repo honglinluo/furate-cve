@@ -4,7 +4,7 @@ import json
 import os
 from collections import defaultdict
 from pathlib import Path
-
+from dotenv import load_dotenv
 import logging
 import yaml
 import base64

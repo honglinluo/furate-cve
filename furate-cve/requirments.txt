@@ -16,4 +16,4 @@ dataset
 dataset[complete]
 mysqlclient
 jaydebeapi
-timezone
+inspect

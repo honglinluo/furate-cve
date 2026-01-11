@@ -1,5 +1,5 @@
 import random
-
+import traceback
 import requests
 import urllib3
 from src.utils.logger import Logger
@@ -9,8 +9,8 @@ import aiohttp
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 from collections import Counter
-
-logger = Logger()
+from requests.exceptions import HTTPError, RequestException
+logger = Logger(name=__name__)
 
 
 @logger.log_duration
@@ -52,9 +52,12 @@ def requests_url(url, method='get', status=True, *args, **kwargs):
                  "Safari/537.36"
 
     if "headers" not in kwargs.keys():
-        kwargs["headers"] = {"User-Agent": user_agent}
+        kwargs["headers"] = {"User-Agent": user_agent,
+                             "Accept": "*/*"}
     elif "User-Agent" not in kwargs["headers"].keys():
         kwargs["headers"]["User-Agent"] = user_agent
+    elif "Accept" not in kwargs["headers"].keys():
+        kwargs["headers"]["Accept"] = "*/*"
     if 'timeout' not in kwargs.keys():
         kwargs['timeout'] = 3
     logger.info(f"{method}: {url}")
@@ -73,8 +76,19 @@ def requests_url(url, method='get', status=True, *args, **kwargs):
             else:
                 logger.error(f"{method}:{url} request timed out 3 times.")
                 return None
+        except HTTPError as http_err:
+            error_msg = f"HTTP {response.status_code} Error: {http_err}\nURL: {url}"
+            full_trace = traceback.format_exc()
+            logger.error(f"{error_msg}\n{full_trace}")
+            return None
+        except RequestException as req_err:
+            error_msg = f"Request Error: {req_err}\nURL: {url}"
+            logger.error(f"{error_msg}\n{traceback.format_exc()}")
+            return None
         except Exception as e:
-            raise e
+            error_msg = f"Unexpected Error: {e}\nURL: {url}"
+            logger.error(f"{error_msg}\n{traceback.format_exc()}")
+            return None
 
         break
 

