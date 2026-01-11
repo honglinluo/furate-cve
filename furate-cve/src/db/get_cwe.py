@@ -1,7 +1,7 @@
 import copy
 
 import requests
-from src.db.mysql_connect import ConMySql, stuf
+from src.db.mysql_connect import ConMySql
 from typing import List, Dict, Optional, Any
 from collections import defaultdict
 from datetime import datetime

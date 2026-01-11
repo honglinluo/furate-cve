@@ -2,3 +2,5 @@
 *.log
 *_test.py
 *.yaml
+*.xls;xlsx;csv
+*.env

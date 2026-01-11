@@ -1,10 +1,28 @@
 {
   "wab": {
-    "ReadFile": [
-      "CVE-2025-9805"
-    ],
-    "UploadFile": [
-      "Inforcenter"
-    ]
+    "CVE-2025-9805": {
+      "type": "ReadFile",
+      "file": "CVE_2025_9805.py"
+    },
+    "CVE-2025-61666": {
+      "type": "ReadFile",
+      "file": "CVE_2025_61666.py"
+    },
+    "FlowiseAI": {
+      "type": "ReadFile",
+      "file": "FlowiseAI.py"
+    },
+    "CVE-2025-27888": {
+      "type": "SSRF",
+      "file": "CVE_2025_27888.py"
+    },
+    "Inforcenter": {
+      "type": "UploadFile",
+      "file": "Inforcenter.py"
+    },
+    "PowerPMS": {
+      "type": "SQL",
+      "file": "PowerPMS.py"
+    }
   }
 }
